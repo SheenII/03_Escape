@@ -7,6 +7,8 @@
 #include "PositionReport.generated.h"
 
 
+
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ESCAPE_API UPositionReport : public UActorComponent
 {
