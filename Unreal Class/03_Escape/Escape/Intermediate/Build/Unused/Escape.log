@@ -1,30 +1,21 @@
-﻿  Creating makefile for hot reloading EscapeEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+﻿  Compiling game modules for hot reload
   Parsing headers for EscapeEditor
     Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeEditor in 5.9640298 seconds
-  Distributing 4 actions to XGE
-  --------------------Build System Warning---------------------------------------
-  License is invalid:
-      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-      This build will run in standalone mode.
-  
-  -------------------------------------------------------------------------------
+  Reflection code generated for EscapeEditor in 5.9866536 seconds
+  Distributing 5 actions to XGE
   --------------------Project: Default-------------------------------------------
-  PositionReport.cpp (0:00.23 at +0:00)
-  PositionReport.gen.cpp (0:00.34 at +0:00)
-  UE4Editor-Escape-5992.dll (0:00.45 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-5992.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-5992.suppressed.exp
-  UE4Editor-Escape-5992.lib (0:00.07 at +0:01)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-5992.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-5992.exp
+  Escape.init.gen.cpp (0:00.28 at +0:00)
+  OpenDoor.cpp (0:01.12 at +0:00)
+  OpenDoor.gen.cpp (0:01.18 at +0:00)
+  UE4Editor-Escape-1643.lib (0:00.09 at +0:01)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1643.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1643.exp
+  UE4Editor-Escape-1643.dll (0:00.48 at +0:01)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1643.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1643.suppressed.exp
   ---------------------- Done ----------------------
    
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
    
-  1 build system warning(s):
-     - License is invalid
-   
   
   
   Deploying EscapeEditor Win64 Development...
-  Total build time: 10.45 seconds (XGE executor: 1.30 seconds)
+  Total build time: 8.48 seconds (XGE executor: 1.90 seconds)
