@@ -1,0 +1,1686 @@
+﻿Log file open, 03/26/18 19:53:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Escape
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1631490480) SRandInit(1631490480).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183455
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64/UE4Editor-Escape-601.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.27-02.53.24:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-02.53.24:980][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.27-02.53.25:000][  0]LogInit: Computer: DESKTOP-DBDP50N
+[2018.03.27-02.53.25:000][  0]LogInit: User: ashee
+[2018.03.27-02.53.25:000][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.27-02.53.25:000][  0]LogInit: High frequency timer resolution =4.101563 MHz
+[2018.03.27-02.53.25:000][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.27-02.53.25:000][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.27-02.53.25:000][  0]LogMemory: Process Physical Memory: 274.05 MB used, 274.05 MB peak
+[2018.03.27-02.53.25:000][  0]LogMemory: Process Virtual Memory: 270.10 MB used, 270.10 MB peak
+[2018.03.27-02.53.25:000][  0]LogMemory: Physical Memory: 4964.54 MB used,  27736.55 MB free, 32701.09 MB total
+[2018.03.27-02.53.25:000][  0]LogMemory: Virtual Memory: 689.27 MB used,  27736.55 MB free, 134217728.00 MB total
+[2018.03.27-02.53.25:119][  0]LogInit: Using OS detected language (en-US).
+[2018.03.27-02.53.25:119][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.27-02.53.25:122][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.27-02.53.25:397][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.27-02.53.25:565][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.27-02.53.25:602][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2018.03.27-02.53.25:602][  0]LogD3D11RHI:       6097/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.27-02.53.25:604][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.27-02.53.25:604][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.27-02.53.25:604][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.27-02.53.25:608][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.27-02.53.25:608][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.27-02.53.25:608][  0]LogWindows: EnumDisplayDevices:
+[2018.03.27-02.53.25:608][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2018.03.27-02.53.25:608][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.03.27-02.53.25:608][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.03.27-02.53.25:608][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.03.27-02.53.25:608][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.27-02.53.25:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2018.03.27-02.53.25:608][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.27-02.53.25:608][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.27-02.53.25:608][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2018.03.27-02.53.25:637][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.27-02.53.25:659][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.27-02.53.25:660][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Intermediate/Shaders/WorkingDirectory/10796/).
+[2018.03.27-02.53.25:660][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ashee/AppData/Local/Temp/UnrealShaderWorkingDir/D6FC919545F9E96E61CCB094E5168B88/'.
+[2018.03.27-02.53.25:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.27-02.53.29:130][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.27-02.53.29:163][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.27-02.53.29:196][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.27-02.53.29:229][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.27-02.53.29:263][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.27-02.53.29:296][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.27-02.53.29:329][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.27-02.53.29:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.27-02.53.29:391][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.27-02.53.29:424][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.27-02.53.29:457][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.27-02.53.29:491][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.27-02.53.29:531][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.27-02.53.29:564][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.27-02.53.29:629][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.27-02.53.29:629][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.27-02.53.29:662][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.27-02.53.29:687][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.27-02.53.29:770][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.27-02.53.29:789][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.27-02.53.29:822][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.27-02.53.29:855][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.27-02.53.29:887][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.27-02.53.29:919][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.27-02.53.29:919][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.27-02.53.30:267][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.27-02.53.30:316][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.27-02.53.30:316][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.27-02.53.30:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.27-02.53.30:317][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.27-02.53.30:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.27-02.53.30:317][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.27-02.53.30:329][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.27-02.53.30:341][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ashee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.27-02.53.30:348][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.27-02.53.30:349][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.27-02.53.30:351][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-02.53.30:351][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-02.53.30:597][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-02.53.30:820][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.27-02.53.30:847][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.27-02.53.30:847][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.27-02.53.30:847][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.27-02.53.30:847][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.27-02.53.30:847][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.27-02.53.30:863][  0]LogNetVersion: Escape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3464171263)
+[2018.03.27-02.53.30:966][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2018.03.27-02.53.31:412][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.166714 seconds
+[2018.03.27-02.53.31:417][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.27-02.53.31:417][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.27-02.53.31:417][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.27-02.53.31:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.27-02.53.33:218][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.27-02.53.33:250][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.27-02.53.33:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.27-02.53.34:001][  0]SourceControl: Source control is disabled
+[2018.03.27-02.53.34:001][  0]SourceControl: Source control is disabled
+[2018.03.27-02.53.34:035][  0]SourceControl: Source control is disabled
+[2018.03.27-02.53.34:073][  0]SourceControl: Source control is disabled
+[2018.03.27-02.53.34:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.27-02.53.34:775][  0]LogOcInput: OculusInput pre-init called
+[2018.03.27-02.53.34:961][  0]LogEngine: Initializing Engine...
+[2018.03.27-02.53.34:963][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.27-02.53.35:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-02.53.35:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-02.53.35:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.27-02.53.35:181][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-02.53.35:189][  0]LogInit: FAudioDevice initialized.
+[2018.03.27-02.53.35:255][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.27-02.53.35:259][  0]LogInit: Texture streaming: Enabled
+[2018.03.27-02.53.35:340][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.27-02.53.35:412][  0]LogInit: Transaction tracking system initialized
+[2018.03.27-02.53.35:608][  0]BlueprintLog: New page: Editor Load
+[2018.03.27-02.53.36:167][  0]LocalizationService: Localization service is disabled
+[2018.03.27-02.53.36:656][  0]LogConsoleResponse: Display: 
+[2018.03.27-02.53.36:772][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.27-02.53.36:772][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.27-02.53.36:772][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.27-02.53.37:177][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' took 0.01s
+[2018.03.27-02.53.37:177][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.03.27-02.53.37:177][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.03.27-02.53.37:177][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2018.03.27-02.53.37:529][  0]SourceControl: Source control is disabled
+[2018.03.27-02.53.37:530][  0]Cmd: MAP LOAD FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-02.53.37:530][  0]LightingResults: New page: Lighting Build
+[2018.03.27-02.53.37:552][  0]MapCheck: New page: Map Check
+[2018.03.27-02.53.37:552][  0]LightingResults: New page: Lighting Build
+[2018.03.27-02.53.38:270][  0]LogAIModule: Creating AISystem for world NewMap
+[2018.03.27-02.53.38:275][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-02.53.38:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-02.53.38:313][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.71ms to complete.
+[2018.03.27-02.53.38:313][  0]LogFileHelpers: Loading map 'NewMap' took 0.784
+[2018.03.27-02.53.38:500][  0]LogCollectionManager: Loaded 0 collections in 0.003337 seconds
+[2018.03.27-02.53.38:575][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' took 0.01s
+[2018.03.27-02.53.38:575][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' took 0.01s
+[2018.03.27-02.53.38:575][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' took 0.01s
+[2018.03.27-02.53.38:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.27-02.53.38:581][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2366 classes and 521 folders.
+[2018.03.27-02.53.38:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.27-02.53.38:757][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.27-02.53.38:801][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.27-02.53.38:837][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-02.53.38:839][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.27-02.53.38:844][  0]LogSlate: Took 0.000832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.27-02.53.38:952][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2018.03.27-02.53.38:993][  0]LogSlate: Took 0.007572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-02.53.39:126][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.27-02.53.39:126][  0]LogLoad: (Engine Initialization) Total time: 16.21 seconds
+[2018.03.27-02.53.39:126][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.27-02.53.39:126][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.27-02.53.39:135][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.27-02.53.39:149][  0]LogAssetRegistry: Asset discovery search completed in 8.2046 seconds
+[2018.03.27-02.53.39:150][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.27-02.53.39:150][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.03.27-02.53.39:153][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.27-02.53.47:781][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.03.27-02.53.48:342][ 77]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x300)
+[2018.03.27-02.53.57:015][108]Cmd: DELETE
+[2018.03.27-02.53.57:015][108]Cmd: ACTOR DELETE
+[2018.03.27-02.53.57:017][108]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-02.53.57:023][108]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.03.27-02.54.24:299][375]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.27-02.54.31:828][278]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.27-02.54.41:353][410]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x300)
+[2018.03.27-02.54.58:644][478]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.03.27-02.55.06:811][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.03.27-02.56.09:938][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.03.27-02.56.52:685][ 92]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.56.58:732][756]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-02.56.58:771][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_4" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset" SILENT=true
+[2018.03.27-02.56.58:791][756]LogSavePackage: Save=19.35ms
+[2018.03.27-02.56.58:791][756]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_4BD81487D48490489E423DC8155B9D801.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset'
+[2018.03.27-02.56.58:792][756]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset
+[2018.03.27-02.57.05:953][602]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.03.27-02.57.05:956][602]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.57.06:304][602]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.57.06:320][602]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.57.06:363][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.03.27-02.57.06:366][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-02.57.06:370][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.27-02.57.06:374][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-02.57.06:378][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.03.27-02.57.06:383][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.27-02.57.06:387][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.27-02.57.06:390][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.03.27-02.57.06:416][602]LogSlate: Took 0.013005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.27-02.57.06:678][606]LogSlate: Took 0.001227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.57.07:467][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.57.59:380][506]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.00:849][624]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.04:161][999]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.58.04:464][999]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.04:503][999]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.04:544][999]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.04:586][999]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.05:416][999]TextureStreamingBuild: Display: Compiling optional shaders took 0.836 seconds.
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.07:199][148]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.16:196][176]Cmd: TRANSACTION UNDO
+[2018.03.27-02.58.16:196][176]LogEditorTransaction: Undo Edit VTiling
+[2018.03.27-02.58.16:198][176]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.16:217][176]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.16:248][176]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.17:355][251]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.20:163][562]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.58.20:469][562]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.20:505][562]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.20:548][562]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.20:592][562]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.21:402][562]TextureStreamingBuild: Display: Compiling optional shaders took 0.816 seconds.
+[2018.03.27-02.58.23:235][715]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.23:235][715]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.23:235][715]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.23:235][715]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.23:236][715]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.23:236][715]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.28:871][339]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.29:897][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.31:870][641]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.32:862][717]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.33:934][836]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.58.34:235][836]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.34:271][836]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.34:314][836]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.34:357][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.35:177][836]TextureStreamingBuild: Display: Compiling optional shaders took 0.825 seconds.
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.36:919][983]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.50:914][583]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.51:900][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.58.53:380][826]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.58.53:678][826]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.53:714][826]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.53:757][826]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.53:803][826]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.58.54:644][826]TextureStreamingBuild: Display: Compiling optional shaders took 0.846 seconds.
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.58.56:429][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.59.02:359][641]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.59.03:348][716]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.59.05:221][927]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.59.05:521][927]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.05:558][927]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.05:598][927]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.05:641][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.06:462][927]TextureStreamingBuild: Display: Compiling optional shaders took 0.825 seconds.
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.59.08:214][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.59.18:245][208]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.19:248][284]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.59.19:249][284]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.59.19:249][284]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.59.19:249][284]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.59.19:249][284]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.59.19:249][284]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.59.20:240][394]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-02.59.20:543][394]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.20:579][394]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.20:618][394]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.20:664][394]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-02.59.21:482][394]TextureStreamingBuild: Display: Compiling optional shaders took 0.825 seconds.
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-02.59.23:226][539]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-02.59.25:388][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-02.59.36:748][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-02.59.43:392][832]Cmd: DELETE
+[2018.03.27-02.59.43:392][832]Cmd: ACTOR DELETE
+[2018.03.27-02.59.43:393][832]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-02.59.43:399][832]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2018.03.27-03.00.02:320][ 85]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.27-03.00.09:262][915]LogActorFactory: Actor Factory created Wall_400x300
+[2018.03.27-03.00.40:757][414]LogMaterialEditor: Saving and Compiling material My_Concrete_Tiles_4
+[2018.03.27-03.00.40:772][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_4" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset" SILENT=true
+[2018.03.27-03.00.40:999][414]LogSavePackage: Save=40.42ms
+[2018.03.27-03.00.40:999][414]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_4E5846139453273427D656F9A1967CA64.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset'
+[2018.03.27-03.00.41:000][414]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset
+[2018.03.27-03.01.49:381][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.02.36:312][144]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.02.42:856][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_5" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset" SILENT=true
+[2018.03.27-03.02.42:876][852]LogSavePackage: Save=18.99ms
+[2018.03.27-03.02.42:876][852]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_501AAAA33432A821A582E669719C62B51.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset'
+[2018.03.27-03.02.42:877][852]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset
+[2018.03.27-03.02.57:434][582]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.02.57:489][582]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.02.57:505][582]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.02.57:545][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.03.27-03.02.57:549][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.02.57:554][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.27-03.02.57:559][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.02.57:563][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.03.27-03.02.57:568][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.27-03.02.57:573][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.27-03.02.57:577][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.02.58:654][647]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.16:301][545]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.17:295][622]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.19:151][830]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.03.19:454][830]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.19:490][830]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.19:534][830]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.19:578][830]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.20:378][830]TextureStreamingBuild: Display: Compiling optional shaders took 0.804 seconds.
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.22:117][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.27:513][583]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.28:494][655]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.29:704][791]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.03.30:002][791]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.30:038][791]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.30:078][791]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.30:124][791]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.30:944][791]TextureStreamingBuild: Display: Compiling optional shaders took 0.826 seconds.
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.32:691][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.39:226][671]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.40:193][742]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.41:366][872]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.03.41:661][872]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.41:697][872]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.41:738][872]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.41:780][872]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.03.42:601][872]TextureStreamingBuild: Display: Compiling optional shaders took 0.826 seconds.
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.03.44:378][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.03.52:518][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.04.07:142][553]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.04.08:577][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.04.09:640][787]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.04.09:940][787]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.09:976][787]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.10:015][787]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.10:061][787]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.10:901][787]TextureStreamingBuild: Display: Compiling optional shaders took 0.845 seconds.
+[2018.03.27-03.04.12:647][933]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.04.12:647][933]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.04.12:648][933]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.04.12:648][933]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.04.12:648][933]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.04.12:648][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.04.19:359][693]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.04.20:347][767]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.04.21:025][842]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.04.21:328][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.21:364][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.21:403][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.21:448][842]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.22:269][842]TextureStreamingBuild: Display: Compiling optional shaders took 0.827 seconds.
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.04.24:001][987]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.04.30:967][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.04.33:772][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.04.34:267][ 74]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.03.27-03.04.38:621][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.04.45:108][316]Cmd: TRANSACTION UNDO
+[2018.03.27-03.04.45:108][316]LogEditorTransaction: Undo Move Actors
+[2018.03.27-03.04.45:115][316]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.04.46:555][418]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.04.51:566][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.04.58:888][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.05.01:800][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.05.13:190][459]MapCheck: New page: Map Check
+[2018.03.27-03.05.13:200][459]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.27-03.05.13:200][459]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.27-03.05.13:290][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.27-03.05.13:294][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.03.27-03.05.13:298][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.03.27-03.05.13:303][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2018.03.27-03.05.13:307][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
+[2018.03.27-03.05.13:312][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.03.27-03.05.13:317][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2018.03.27-03.05.13:326][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.03.27-03.05.13:330][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2018.03.27-03.05.13:335][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_2, compiling. 
+[2018.03.27-03.05.13:340][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_3, compiling. 
+[2018.03.27-03.05.13:345][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.05.13:349][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.14:377][459]TextureStreamingBuild: Display: Compiling optional shaders took 1.109 seconds.
+[2018.03.27-03.05.14:405][459]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
+[2018.03.27-03.05.14:409][459]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.03.27-03.05.14:415][459]LightingResults: New page: Lighting Build - Mar 26, 2018, 1:05:14 PM
+[2018.03.27-03.05.14:444][459]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.27-03.05.14:665][459]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.27-03.05.14:677][459]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.27-03.05.15:196][459]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.27-03.05.15:196][459]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10796
+[2018.03.27-03.05.17:662][459]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.27-03.05.17:662][459]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.27-03.05.17:663][459]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.27-03.05.17:663][459]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.27-03.05.17:663][459]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.27-03.05.17:663][459]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.27-03.05.17:742][459]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.27-03.05.17:742][459]MapCheck: New page: NewMap - Mar 26, 2018, 1:05:17 PM
+[2018.03.27-03.05.17:742][459]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.03.27-03.05.17:784][459]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 42.136ms to complete.
+[2018.03.27-03.05.17:806][459]LogEditorBuildUtils: Build time 0:04
+[2018.03.27-03.05.17:825][459]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_2, compiling. 
+[2018.03.27-03.05.17:830][459]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_2, compiling. 
+[2018.03.27-03.05.17:873][460]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_3, compiling. 
+[2018.03.27-03.05.17:880][460]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_3, compiling. 
+[2018.03.27-03.05.17:905][461]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.05.17:911][461]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.05.17:940][462]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.17:948][462]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.20:854][566]Job is a success!
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:      BrickData 95x5x5 = 0.1Mb
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:          1: 5.3% covering 1.6% of volume
+[2018.03.27-03.05.20:900][567]LogVolumetricLightmapImport:          2: 89.5% covering 0.4% of volume
+[2018.03.27-03.05.21:114][567]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.27-03.05.21:114][567]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.27-03.05.21:114][567]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.27-03.05.21:114][567]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.27-03.05.21:114][567]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.27-03.05.21:127][567]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2018.03.27-03.05.21:150][567]Lightmass on DESKTOP-DBDP50N: 1.66 sec total, 102 ms importing, 23 ms setup, 413 ms photons, 1.10 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 7.56 sec total, 3.60 sec processing.
+[2018.03.27-03.05.21:163][567]LogStaticLightingSystem: Illumination: 6.73 sec (170 ms encoding lightmaps, 40 ms encoding shadowmaps)
+[2018.03.27-03.05.21:163][567]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.27-03.05.21:163][567]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.27-03.05.21:667][567]DumpUnbuiltLightIteractions
+[2018.03.27-03.05.21:667][567]Lights with unbuilt interactions: 0
+[2018.03.27-03.05.21:667][567]
+[2018.03.27-03.05.21:667][567]Primitives with unbuilt interactions: 0
+[2018.03.27-03.05.21:701][568]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.27-03.05.21:701][568]MapCheck: New page: NewMap - Mar 26, 2018, 1:05:21 PM
+[2018.03.27-03.05.21:735][568]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.1ms to complete.
+[2018.03.27-03.05.56:633][543]LogMaterialEditor: Saving and Compiling material My_Concrete_Tiles_5
+[2018.03.27-03.05.56:927][543]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.56:965][543]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.56:997][543]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.57:029][543]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.05.58:311][543]TextureStreamingBuild: Display: Compiling optional shaders took 1.285 seconds.
+[2018.03.27-03.05.59:735][543]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-03.05.59:755][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_5" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset" SILENT=true
+[2018.03.27-03.05.59:777][543]LogSavePackage: Save=18.84ms
+[2018.03.27-03.05.59:777][543]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_57790F2DC417E3C0C032D58996A283EEF.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset'
+[2018.03.27-03.05.59:778][543]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset
+[2018.03.27-03.05.59:929][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.27-03.06.00:021][553]LogSavePackage: Save=89.23ms
+[2018.03.27-03.06.00:021][553]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_Auto1ED1FA58B4CDDD58826C244BD452E0B50.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2018.03.27-03.06.00:022][553]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2018.03.27-03.06.00:023][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.123
+[2018.03.27-03.06.00:023][553]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.123
+[2018.03.27-03.06.00:024][553]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
+[2018.03.27-03.06.00:024][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
+[2018.03.27-03.06.00:024][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.27-03.06.00:065][553]LogSavePackage: Save=19.72ms
+[2018.03.27-03.06.00:065][553]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuiltData_Auto1AE41BAAD4311FDCA1312C584BAD1D45A.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset'
+[2018.03.27-03.06.00:073][553]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset
+[2018.03.27-03.06.00:073][553]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.03.27-03.07.17:144][624]Cmd: STAT FPS
+[2018.03.27-03.07.36:783][978]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-03.07.36:859][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-03.07.36:859][978]PIE: New page: PIE session: NewMap (Mar 26, 2018, 1:07:36 PM)
+[2018.03.27-03.07.36:859][978]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.27-03.07.36:876][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016372s)
+[2018.03.27-03.07.36:877][978]LogAIModule: Creating AISystem for world NewMap
+[2018.03.27-03.07.36:877][978]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2018.03.27-03.07.36:877][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.017778s)
+[2018.03.27-03.07.36:887][978]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-03.07.36:893][978]LogInit: FAudioDevice initialized.
+[2018.03.27-03.07.36:932][978]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Escape.EscapeGameMode'
+[2018.03.27-03.07.36:932][978]LogLoad: Game class is 'GameModeBase'
+[2018.03.27-03.07.36:934][978]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.03.26-20.07.36
+[2018.03.27-03.07.36:934][978]LogWorld: Bringing up level for play took: 0.000790
+[2018.03.27-03.07.36:959][978]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.03.27-03.07.36:960][978]LogTemp: Warning: SM_TableRound_2 is at X=-210.000 Y=350.000 Z=20.000
+[2018.03.27-03.07.36:960][978]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=-370.000 Z=20.000
+[2018.03.27-03.07.36:960][978]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.188
+[2018.03.27-03.07.57:102][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.27-03.08.04:693][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.27-03.08.07:371][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.27-03.08.07:450][618]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.03.27-03.08.19:583][ 67]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.19:636][ 67]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.19:651][ 67]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.19:688][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.08.19:692][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.08.19:695][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.19:699][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.03.27-03.08.19:702][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.08.21:102][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.08.46:725][976]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:832][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:862][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:892][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:923][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:954][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.46:984][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:012][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:041][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:070][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:101][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:131][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:162][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:193][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:409][996]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.47:429][996]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.47:959][ 29]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.48:047][ 33]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.48:071][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.49:086][ 96]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.08.49:189][101]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.08.49:260][106]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.49:281][106]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.08.50:256][169]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.08.51:789][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.51:853][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.51:883][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.51:913][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.51:943][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.51:973][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:003][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:033][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:062][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:111][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:141][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:172][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:201][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:232][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:263][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:293][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:341][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.52:590][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.53:048][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.53:076][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.54:399][510]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.54:419][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.08.55:387][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.08.55:609][596]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:716][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:745][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:775][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:804][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:835][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.55:866][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.56:892][700]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.08.56:910][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.08.57:892][762]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.08.58:265][799]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:481][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:509][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:539][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:569][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:599][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:630][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:660][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:708][816]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:797][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:858][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:889][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.58:920][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:607][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:636][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:665][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:696][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:728][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:759][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.08.59:789][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:106][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:135][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:164][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:195][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:227][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:277][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:309][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:339][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:407][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:438][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:468][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:499][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:531][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:579][910]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.00:688][915]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.01:634][  5]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.09.01:650][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.09.02:634][ 67]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.09.08:971][726]LogMaterialEditor: Saving and Compiling material M_Chair
+[2018.03.27-03.09.09:269][726]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.09.09:306][726]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.09.09:349][726]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.03.27-03.09.09:394][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.03.27-03.09.10:153][726]TextureStreamingBuild: Display: Compiling optional shaders took 0.765 seconds.
+[2018.03.27-03.09.11:720][726]LogSavePackage: Save=12.75ms
+[2018.03.27-03.09.11:720][726]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/M_ChairB6380903498606038AFEA39619E1D8D2.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2018.03.27-03.09.11:745][726]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2018.03.27-03.09.55:350][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2018.03.27-03.09.56:426][ 31]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_TableRound)
+[2018.03.27-03.10.00:377][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2018.03.27-03.10.00:474][513]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.03.27-03.10.05:187][ 75]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.05:241][ 75]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.05:256][ 75]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.05:295][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.10.05:298][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.10.05:301][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.05:305][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.06:729][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.18:586][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.18:640][409]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.18:658][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.19:640][472]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.23:637][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.23:823][894]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.23:864][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.23:895][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.23:976][898]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.24:423][937]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.24:440][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.25:412][  0]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.25:974][ 57]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:135][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:165][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:194][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:223][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:305][ 71]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:353][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:402][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:432][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:462][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:493][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:523][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:553][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:585][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:616][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:646][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:677][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:706][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:738][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:767][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:797][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.26:827][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:841][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:870][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:899][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:928][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:960][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.27:989][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:020][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:050][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:081][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:112][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:142][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:173][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:205][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:235][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:314][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:345][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:376][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:425][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.28:522][177]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.29:263][247]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.29:283][247]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.30:249][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.34:878][783]LogMaterialEditor: Applying material M_TableRound
+[2018.03.27-03.10.35:175][783]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.35:215][783]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.35:262][783]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.03.27-03.10.35:308][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2018.03.27-03.10.36:108][783]TextureStreamingBuild: Display: Compiling optional shaders took 0.806 seconds.
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.37:944][921]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.47:353][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.03.27-03.10.47:407][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.03.27-03.10.47:422][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.03.27-03.10.47:462][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.10.47:466][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.10.47:471][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.03.27-03.10.47:475][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.27-03.10.48:441][864]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.10.49:062][924]LogMaterialEditor: Saving and Compiling material M_TableRound
+[2018.03.27-03.10.49:093][924]LogSavePackage: Save=11.43ms
+[2018.03.27-03.10.49:093][924]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/M_TableRoundE1EF9E634D68CE7E250A5B8DCF908951.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/StarterContent/Props/Materials/M_TableRound.uasset'
+[2018.03.27-03.10.49:100][924]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2018.03.27-03.10.52:892][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.11.06:917][ 36]Cmd: TRANSACTION UNDO
+[2018.03.27-03.11.06:917][ 36]LogEditorTransaction: Undo Move Actors
+[2018.03.27-03.11.08:057][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.03.27-03.11.23:584][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.13.20:808][ 78]Cmd: STAT FPS
+[2018.03.27-03.16.11:804][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.27-03.16.11:899][551]LogSavePackage: Save=87.55ms
+[2018.03.27-03.16.11:899][551]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_Auto2DCA9BCD64705375111A337BAD85AEC6A.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2018.03.27-03.16.11:901][551]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2018.03.27-03.16.11:901][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.313
+[2018.03.27-03.16.11:901][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.313
+[2018.03.27-03.25.52:072][ 40]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_DoorFrame2)
+[2018.03.27-03.26.08:168][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2018.03.27-03.26.18:824][235]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.27-03.26.18:831][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-03.26.18:832][235]PIE: New page: PIE session: NewMap (Mar 26, 2018, 1:26:18 PM)
+[2018.03.27-03.26.18:832][235]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.03.27-03.26.18:838][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005957s)
+[2018.03.27-03.26.18:838][235]LogAIModule: Creating AISystem for world NewMap
+[2018.03.27-03.26.18:838][235]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2018.03.27-03.26.18:838][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006828s)
+[2018.03.27-03.26.18:847][235]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-03.26.18:853][235]LogInit: FAudioDevice initialized.
+[2018.03.27-03.26.18:882][235]LogLoad: Game class is 'GameModeBase'
+[2018.03.27-03.26.18:883][235]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.03.26-20.26.18
+[2018.03.27-03.26.18:883][235]LogWorld: Bringing up level for play took: 0.000711
+[2018.03.27-03.26.18:884][235]LogTemp: Warning: SM_TableRound_2 is at X=-210.000 Y=350.000 Z=20.000
+[2018.03.27-03.26.18:884][235]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.03.27-03.26.18:884][235]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.113
+[2018.03.27-03.26.33:759][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.03.27-03.26.38:054][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.03.27-03.26.39:123][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.26.53:958][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2018.03.27-03.27.05:378][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2018.03.27-03.27.48:438][934]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.27.48:491][934]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.27.48:507][934]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.27.48:549][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.03.27-03.27.48:552][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.27.48:556][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.27-03.27.48:559][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.27.48:563][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.03.27-03.27.48:566][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.27-03.27.48:569][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.27-03.27.48:573][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.03.27-03.27.50:035][ 29]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.27.50:035][ 29]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.27.50:035][ 29]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.27.50:036][ 29]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.27.50:036][ 29]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.27.50:036][ 29]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.28.06:123][788]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.28.07:127][869]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.28.08:749][ 55]LogMaterialEditor: Applying material My_Concrete_Tiles_4
+[2018.03.27-03.28.09:052][ 55]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.28.09:088][ 55]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.28.09:131][ 55]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.28.09:174][ 55]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
+[2018.03.27-03.28.09:993][ 55]TextureStreamingBuild: Display: Compiling optional shaders took 0.826 seconds.
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.28.11:737][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.28.19:913][829]LogMaterialEditor: Saving and Compiling material My_Concrete_Tiles_4
+[2018.03.27-03.28.19:928][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_4" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset" SILENT=true
+[2018.03.27-03.28.19:949][829]LogSavePackage: Save=18.36ms
+[2018.03.27-03.28.19:949][829]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_4979BB9B0423BADCF4EE6F98C34E0F73F.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset'
+[2018.03.27-03.28.19:950][829]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_4.uasset
+[2018.03.27-03.28.25:476][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.28.48:244][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.28.50:918][477]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.28.50:971][477]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.28.50:986][477]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.28.51:024][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.03.27-03.28.51:028][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.27-03.28.51:031][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.03.27-03.28.51:034][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.03.27-03.28.51:037][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.03.27-03.28.51:041][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.27-03.28.51:044][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.27-03.28.51:047][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.28.52:438][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.11:426][737]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.29.12:407][814]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.14:379][ 43]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.29.14:674][ 43]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.14:710][ 43]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.14:753][ 43]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.14:801][ 43]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.15:611][ 43]TextureStreamingBuild: Display: Compiling optional shaders took 0.816 seconds.
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.29.17:391][196]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.24:345][998]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.29.25:326][ 73]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.30:003][623]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.29.30:998][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.32:213][842]LogMaterialEditor: Applying material My_Concrete_Tiles_5
+[2018.03.27-03.29.32:515][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.32:551][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.32:592][842]LogMaterial: Missing cached shader map for material My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.32:636][842]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
+[2018.03.27-03.29.33:466][842]TextureStreamingBuild: Display: Compiling optional shaders took 0.836 seconds.
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: Base pass shader: 130 instructions
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: Base pass shader with Surface Lightmap: 150 instructions
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.27-03.29.35:250][996]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.27-03.29.51:568][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.29.52:696][ 66]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.29.54:920][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.30.52:699][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.31.05:213][756]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.31.06:261][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.31.17:199][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.03.27-03.31.18:975][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.03.27-03.31.19:221][422]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.03.27-03.31.44:230][414]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.31.47:634][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-03.31.51:512][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-03.33.03:864][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.27-03.33.04:748][420]LogSavePackage: Save=92.63ms
+[2018.03.27-03.33.04:748][420]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_Auto36457E67B488C53A64AA22AA09C8F6750.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2018.03.27-03.33.04:762][420]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2018.03.27-03.33.04:763][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.908
+[2018.03.27-03.33.04:763][420]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.908
+[2018.03.27-03.33.04:765][420]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/My_Concrete_Tiles_5] ([1] browsable assets)...
+[2018.03.27-03.33.04:782][420]OBJ SavePackage:     Rendered thumbnail for [Material /Game/My_Concrete_Tiles_5.My_Concrete_Tiles_5]
+[2018.03.27-03.33.04:782][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/My_Concrete_Tiles_5]
+[2018.03.27-03.33.04:804][420]LogSavePackage: Save=18.94ms
+[2018.03.27-03.33.04:804][420]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_5_Auto36F111DD3448B119D7A3AD380474320B7.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/My_Concrete_Tiles_5_Auto3.uasset'
+[2018.03.27-03.33.04:804][420]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/My_Concrete_Tiles_5_Auto3.uasset
+[2018.03.27-03.33.04:804][420]LogFileHelpers: Auto-saving content packages took 0.040
+[2018.03.27-03.34.46:827][727]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.34.47:155][728]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.34.48:492][732]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.45:309][902]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.45:501][903]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.45:835][904]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.46:167][905]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.46:502][906]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.46:825][907]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.47:168][908]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.47:493][909]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.47:821][910]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.48:159][911]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.48:500][912]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.48:829][913]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.49:159][914]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.49:500][915]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.49:826][916]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.50:168][917]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.50:496][918]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.50:826][919]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.35.51:168][920]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.36.54:531][110]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.36.54:897][111]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.36.55:563][112]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.36.55:581][113]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.27-03.37.39:916][246]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/OpenDoor.h 
+[2018.03.27-03.37.39:953][246]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/OpenDoor.h : 42
+[2018.03.27-03.37.39:953][246]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/OpenDoor.cpp 
+[2018.03.27-03.37.40:003][246]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/OpenDoor.cpp : 42
+[2018.03.27-03.37.40:004][246]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.27-03.37.40:010][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:010][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:010][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:011][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:012][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:013][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:014][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:015][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:016][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:017][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:018][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:023][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:034][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:036][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:036][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:037][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:042][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:042][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-03.37.40:049][246]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.27-04.03.51:070][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.03.27-04.03.53:111][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2018.03.27-04.04.38:572][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.27-04.04.38:667][661]LogSavePackage: Save=91.36ms
+[2018.03.27-04.04.38:667][661]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_Auto4EEC4AE8840DCA2348CFC36A20B7207EB.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2018.03.27-04.04.38:667][661]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2018.03.27-04.04.38:668][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.103
+[2018.03.27-04.04.38:668][661]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.103
+[2018.03.27-04.06.13:088][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2018.03.27-04.10.56:407][460]LogHotReload: New module detected: UE4Editor-Escape-1643.dll
+[2018.03.27-04.10.57:089][463]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.27-04.10.57:134][463]LogClass: Could not find existing class OpenDoor in package /Script/Escape for HotReload, assuming new class
+[2018.03.27-04.10.57:136][463]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2018.03.27-04.10.57:173][463]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2018.03.27-04.10.57:174][463]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.03.27-04.10.57:237][463]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2368 classes and 525 folders.
+[2018.03.27-04.10.57:240][463]Display: HotReload took  0.2s.
+[2018.03.27-04.11.58:211][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2018.03.27-04.11.59:393][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2018.03.27-04.12.00:982][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2018.03.27-04.12.08:990][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-04.12.09:091][812]LogSavePackage: Save=92.33ms
+[2018.03.27-04.12.09:091][812]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap4DE6AA0C480F7639850495B17C889476.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap'
+[2018.03.27-04.12.09:092][812]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap
+[2018.03.27-04.12.09:104][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.27-04.12.09:149][812]LogSavePackage: Save=42.42ms
+[2018.03.27-04.12.09:149][812]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuiltData2E5D53224A505BF19D7EFAAFA52E2766.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset'
+[2018.03.27-04.12.09:150][812]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset
+[2018.03.27-04.21.53:555][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-04.21.53:658][937]LogSavePackage: Save=91.32ms
+[2018.03.27-04.21.53:658][937]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMapED6B7D584672B372FF68089B7D3BA7D5.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap'
+[2018.03.27-04.21.53:659][937]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap.umap
+[2018.03.27-04.21.53:670][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.03.27-04.21.53:714][937]LogSavePackage: Save=40.89ms
+[2018.03.27-04.21.53:714][937]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuiltData1A539F554BDC137A42F0E7927F19DF68.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset'
+[2018.03.27-04.21.53:714][937]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuiltData.uasset
+[2018.03.27-04.22.03:698][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My_Concrete_Tiles_5" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset" SILENT=true
+[2018.03.27-04.22.03:714][318]LogSavePackage: Save=13.23ms
+[2018.03.27-04.22.03:714][318]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/My_Concrete_Tiles_5B236BE1E4A7AEEA41A4FCC84E1F5623E.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset'
+[2018.03.27-04.22.03:715][318]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/My_Concrete_Tiles_5.uasset
+[2018.03.27-04.22.03:909][319]Cmd: QUIT_EDITOR
+[2018.03.27-04.22.04:655][319]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.27-04.22.04:687][319]LogExit: Preparing to exit.
+[2018.03.27-04.22.05:226][319]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
+[2018.03.27-04.22.05:239][319]LogExit: Editor shut down
+[2018.03.27-04.22.05:242][319]LogExit: Transaction tracking system shut down
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.27-04.22.05:379][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.27-04.22.05:380][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.27-04.22.05:408][319]LogExit: Object subsystem successfully closed.
+[2018.03.27-04.22.05:424][319]LogD3D11RHI: Shutdown
+[2018.03.27-04.22.05:424][319]LogD3D11RHI: CleanupD3DDevice
+[2018.03.27-04.22.05:426][319]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module Escape (557)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (556)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (554)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module MaterialEditor (552)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.27-04.22.05:431][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.27-04.22.05:432][319]LogDirectoryWatcher: A directory notification for 'D:/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.27-04.22.05:432][319]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' was aborted.
+[2018.03.27-04.22.05:432][319]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' was aborted.
+[2018.03.27-04.22.05:432][319]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' was aborted.
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.27-04.22.05:432][319]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.27-04.22.05:433][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.27-04.22.06:267][319]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.27-04.22.06:268][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.27-04.22.06:320][319]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.27-04.22.06:321][319]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.27-04.22.06:322][319]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.03.27-04.22.06:470][319]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.03.27-04.22.06:471][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.03.27-04.22.06:472][319]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.03.27-04.22.06:472][319]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.03.27-04.22.06:474][319]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.03.27-04.22.06:474][319]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.03.27-04.22.06:474][319]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.03.27-04.22.06:474][319]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64' was aborted.
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.27-04.22.06:475][319]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.27-04.22.06:576][319]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.27-04.22.06:676][319]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.27-04.22.06:678][319]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.27-04.22.06:683][319]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.27-04.22.06:684][319]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.27-04.22.06:684][319]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.27-04.22.06:684][319]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.27-04.22.06:684][319]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.27-04.22.06:685][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.27-04.22.06:686][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.27-04.22.06:787][319]LogDerivedDataCache: Shutdown
+[2018.03.27-04.22.06:787][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.27-04.22.06:787][319]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.27-04.22.06:788][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.27-04.22.06:789][319]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.27-04.22.06:790][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.27-04.22.06:791][319]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.27-04.22.06:792][319]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.27-04.22.06:792][319]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.27-04.22.06:793][319]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8735241B-4C99-47E0-4CD7-4EA0F1AF452D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c623c38a4644157b8d62bd9c96da1125%7Cef80ea24ccd440479d9456400eb2e2ea%7C0fdb0f32-4654-459a-a5e7-020c5999b653&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.27-04.22.06:801][319]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.27-04.22.06:802][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.27-04.22.06:803][319]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.27-04.22.06:805][319]LogExit: Exiting.
+[2018.03.27-04.22.06:810][319]Log file closed, 03/26/18 21:22:06
