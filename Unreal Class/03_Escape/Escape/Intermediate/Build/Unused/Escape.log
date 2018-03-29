@@ -1,11 +1,16 @@
 ﻿  Compiling game modules for hot reload
-  Distributing 3 actions to XGE
+  Parsing headers for EscapeEditor
+    Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeEditor in 7.6748796 seconds
+  Distributing 5 actions to XGE
   --------------------Project: Default-------------------------------------------
-  OpenDoor.cpp (0:00.23 at +0:00)
-  UE4Editor-Escape-6376.lib (0:00.07 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6376.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6376.exp
-  UE4Editor-Escape-6376.dll (0:00.48 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6376.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6376.suppressed.exp
+  Escape.init.gen.cpp (0:46.03 at +0:00)
+  OpenDoor.cpp (0:46.15 at +0:00)
+  OpenDoor.gen.cpp (0:46.17 at +0:00)
+  UE4Editor-Escape-3315.lib (0:00.37 at +0:46)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-3315.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-3315.exp
+  UE4Editor-Escape-3315.dll (0:00.96 at +0:46)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-3315.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-3315.suppressed.exp
   ---------------------- Done ----------------------
    
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -13,4 +18,4 @@
   
   
   Deploying EscapeEditor Win64 Development...
-  Total build time: 1.46 seconds (XGE executor: 0.89 seconds)
+  Total build time: 56.27 seconds (XGE executor: 47.45 seconds)
