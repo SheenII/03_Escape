@@ -23,6 +23,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	void OpenDoor();
+	void CloseDoor();
 
 public:	
 	// Called every frame
@@ -30,12 +31,17 @@ public:
 
 		
 private:
-	UPROPERTY(VisibleAnywhere)// UPROPERTY is a macro in Unreal. This can be assigned to an actor for any purpose.
+	UPROPERTY(EditAnywhere)// UPROPERTY is a macro in Unreal. This can be assigned to an actor for any purpose.
 	float OpenAngle = 90.0f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 
+	UPROPERTY(EditAnywhere)
+		float DoorCloseDelay = 1.f;
+
+		float LastDoorOpenTime;
 	
 	AActor* ActorThatOpens;  // Using Actor here since Pawn inherits from Actor.
+	AActor* Owner; // The owning door
 };
