@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Escape.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{8F4875EF-1EAB-43FB-A48E-55EFB87AE4D0}</UniqueIdentifier>
+			<UniqueIdentifier>{ABEB5EC5-5C42-4FFF-BDC6-F4F1024627BD}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Escape.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{F85ACF83-62BD-4038-B975-97CF3A8D85AF}</UniqueIdentifier>
+			<UniqueIdentifier>{F73E5E45-ED9C-47E1-9309-EECE3CBC7403}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Escape">
-			<UniqueIdentifier>{1EF98F37-BA5C-4FD2-94A6-D0FCDEDCCE56}</UniqueIdentifier>
+			<UniqueIdentifier>{9AEDD921-5970-48AC-B26A-E136C99A2F64}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Escape\Escape.Build.cs">
 			<Filter>Source\Escape</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\Escape</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Escape\EscapeGameModeBase.h">
+			<Filter>Source\Escape</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Escape\Grabber.cpp">
+			<Filter>Source\Escape</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Escape\Grabber.h">
 			<Filter>Source\Escape</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\Escape\OpenDoor.cpp">

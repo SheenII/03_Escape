@@ -571,6 +571,8 @@
 		<ClInclude Include="..\..\Source\Escape\Escape.h" />
 		<ClCompile Include="..\..\Source\Escape\EscapeGameModeBase.cpp" />
 		<ClInclude Include="..\..\Source\Escape\EscapeGameModeBase.h" />
+		<ClCompile Include="..\..\Source\Escape\Grabber.cpp" />
+		<ClInclude Include="..\..\Source\Escape\Grabber.h" />
 		<ClCompile Include="..\..\Source\Escape\OpenDoor.cpp" />
 		<ClInclude Include="..\..\Source\Escape\OpenDoor.h" />
 		<ClCompile Include="..\..\Source\Escape\PositionReport.cpp" />
