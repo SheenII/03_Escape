@@ -1,15 +1,11 @@
 ﻿  Compiling game modules for hot reload
-  Parsing headers for EscapeEditor
-    Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeEditor in 7.2155426 seconds
-  Distributing 4 actions to XGE
+  Distributing 3 actions to XGE
   --------------------Project: Default-------------------------------------------
-  Grabber.cpp (0:00.50 at +0:00)
-  Grabber.gen.cpp (0:24.78 at +0:00)
-  UE4Editor-Escape-1118.lib (0:00.09 at +0:24)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1118.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1118.exp
-  UE4Editor-Escape-1118.dll (0:00.50 at +0:24)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1118.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-1118.suppressed.exp
+  Grabber.cpp (0:00.21 at +0:00)
+  UE4Editor-Escape-2405.lib (0:00.07 at +0:00)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.exp
+  UE4Editor-Escape-2405.dll (0:00.46 at +0:00)
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.suppressed.exp
   ---------------------- Done ----------------------
    
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -17,4 +13,4 @@
   
   
   Deploying EscapeEditor Win64 Development...
-  Total build time: 33.75 seconds (XGE executor: 25.51 seconds)
+  Total build time: 1.72 seconds (XGE executor: 0.90 seconds)

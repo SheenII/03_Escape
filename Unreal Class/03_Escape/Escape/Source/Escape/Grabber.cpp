@@ -1,9 +1,10 @@
 // Copyright 2018 Andrew Sheen
 
+
+#include "Grabber.h"
 #include "Engine/World.h"
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "Grabber.h"
 #include "DrawDebugHelpers.h"
 
 //This is defining our own Macro. 
@@ -38,7 +39,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	//Get platyer viewpoint this click
+	///Get platyer viewpoint this click
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
@@ -46,14 +47,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		OUT PlayerViewPointRotation	
 	);
 		
-	//Log out to test	
-	/*UE_LOG(LogTemp, Warning, TEXT("Location: %s, Position: %s"),
-		*PlayerViewPointLocation.ToString(),
-		*PlayerViewPointRotation.ToString()
-	)*/
+	///Log out to test	
+	
+	
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach; 
 
-	//Draw a red line in the world tovisualise the player reach
+	///Draw a red line in the world tovisualise the player reach
 	DrawDebugLine(
 		GetWorld(),
 		PlayerViewPointLocation,
@@ -64,9 +63,29 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		0.f,
 		10.f
 	);
+	///Setup query parameters
+	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
 
-	//Ray-cast out to reach distance
+	///Line Trace (Ray-cast out to reach distance)
+	FHitResult Hit;
+	GetWorld()->LineTraceSingleByObjectType(
+		OUT Hit,
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		TraceParameters
+	);
 
-	//See what we hit
+	///See what we hit
+	AActor* ActorHit = Hit.GetActor();
+	if (ActorHit)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Line trace hit: %s"), *(ActorHit->GetName()))
+	}
+	/*Pointers and references.
+	pointers and References both point to something that is stored.
+	Pointers dan be reassigned to another address but a Reference is going to always belong
+	to the address initially assigned.
+	*/
 }
 
