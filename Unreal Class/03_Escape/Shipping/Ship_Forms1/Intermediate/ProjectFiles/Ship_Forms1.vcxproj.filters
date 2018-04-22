@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Ship_Forms1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6FE73FBF-5FBF-4D43-A3DE-5C6F6DDCB015}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ship_Forms1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Ship_Forms1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E982B117-41EC-423B-AE63-11674C1DDFC4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Ship_Forms1">
+			<UniqueIdentifier>{4763EAE8-34B9-49BE-BE59-F69BD2BB2878}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ship_Forms1\Ship_Forms1.Build.cs">
+			<Filter>Source\Ship_Forms1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Ship_Forms1\Ship_Forms1.cpp">
+			<Filter>Source\Ship_Forms1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Ship_Forms1\Ship_Forms1.h">
+			<Filter>Source\Ship_Forms1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Ship_Forms1\Ship_Forms1GameModeBase.cpp">
+			<Filter>Source\Ship_Forms1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Ship_Forms1\Ship_Forms1GameModeBase.h">
+			<Filter>Source\Ship_Forms1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

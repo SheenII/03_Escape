@@ -85,7 +85,19 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	/*Pointers and references.
 	pointers and References both point to something that is stored.
 	Pointers dan be reassigned to another address but a Reference is going to always belong
-	to the address initially assigned.
+	to the address initially assigned. A reference is fikxed. A pointer can be "null" but
+	a reference cannnot. A reference muyst be initialised, since it cannot be reassigned 
+	making it "null" will always mean it is nothing. To access a pointer you need to put
+	a "*" infront of it - *ActorPtr - because a pointer basically hides the object it is
+	pointing to. A reference is basically pretending to be the object and there will be
+	no need for special coding to make it happen. To access an address you won't need 
+	anything to help the pointer but the reference needs the ampersand (&). To change the 
+	of the pointer you need to basically code it like this ActorPtr = &Actor. The reference 
+	is not allowed to change addresses so no coding is available. Changing the value...
+	The pointer is done like this *ActorPtr = Actor. The reference is similar but without 
+	the asterisk like this ActorPtr = Actor.
+	*****Pointers are more powerful but also dangerous. Use references unless you can't.
+
 	*/
 }
 

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Ship_Forms1.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\My Documents\Repos\Unreal Class\03_Escape\Shipping\Ship_Forms1\Intermediate\Build\Win64\UE4Editor\Development\Ship_Forms1\Ship_Forms1.cpp.obj"
+"D:\My Documents\Repos\Unreal Class\03_Escape\Shipping\Ship_Forms1\Intermediate\Build\Win64\UE4Editor\Development\Ship_Forms1\Ship_Forms1GameModeBase.cpp.obj"
+"D:\My Documents\Repos\Unreal Class\03_Escape\Shipping\Ship_Forms1\Intermediate\Build\Win64\UE4Editor\Development\Ship_Forms1\Ship_Forms1.init.gen.cpp.obj"
+"D:\My Documents\Repos\Unreal Class\03_Escape\Shipping\Ship_Forms1\Intermediate\Build\Win64\UE4Editor\Development\Ship_Forms1\Ship_Forms1GameModeBase.gen.cpp.obj"
+"D:\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Ship_Forms1\PCLaunch.rc.res"
+"D:\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\My Documents\Repos\Unreal Class\03_Escape\Shipping\Ship_Forms1\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Ship_Forms1.lib"
