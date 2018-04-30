@@ -1,4 +1,4 @@
-﻿Log file open, 04/22/18 14:51:16
+﻿Log file open, 04/30/18 04:40:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Escape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1069162474) SRandInit(-1069162474).
+LogInit: Display: RandInit(-631074711) SRandInit(-631074711).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.169940
+LogStats: Stats thread started at 0.146862
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64/UE4Editor-Escape-2405.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64/UE4Editor-Escape-8834.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -197,573 +197,1192 @@ LogInit: Base directory: D:/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.22-19.51.17:966][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-19.51.17:966][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.22-19.51.17:972][  0]LogInit: Computer: DESKTOP-DBDP50N
-[2018.04.22-19.51.17:972][  0]LogInit: User: ashee
-[2018.04.22-19.51.17:972][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.22-19.51.17:972][  0]LogInit: High frequency timer resolution =4.101556 MHz
-[2018.04.22-19.51.17:972][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.04.22-19.51.17:972][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.22-19.51.17:972][  0]LogMemory: Process Physical Memory: 275.77 MB used, 275.77 MB peak
-[2018.04.22-19.51.17:973][  0]LogMemory: Process Virtual Memory: 272.17 MB used, 272.17 MB peak
-[2018.04.22-19.51.17:973][  0]LogMemory: Physical Memory: 7526.11 MB used,  25174.99 MB free, 32701.09 MB total
-[2018.04.22-19.51.17:973][  0]LogMemory: Virtual Memory: 691.32 MB used,  25174.99 MB free, 134217728.00 MB total
-[2018.04.22-19.51.18:046][  0]LogInit: Using OS detected language (en-US).
-[2018.04.22-19.51.18:046][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.22-19.51.18:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.22-19.51.18:327][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.22-19.51.18:469][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.22-19.51.18:506][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
-[2018.04.22-19.51.18:506][  0]LogD3D11RHI:       6097/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.22-19.51.18:507][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.22-19.51.18:507][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.22-19.51.18:507][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.22-19.51.18:513][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.22-19.51.18:513][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.22-19.51.18:513][  0]LogWindows: EnumDisplayDevices:
-[2018.04.22-19.51.18:513][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
-[2018.04.22-19.51.18:513][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.04.22-19.51.18:513][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.04.22-19.51.18:514][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.04.22-19.51.18:514][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.22-19.51.18:514][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
-[2018.04.22-19.51.18:514][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.22-19.51.18:514][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.22-19.51.18:514][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
-[2018.04.22-19.51.18:536][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.22-19.51.18:559][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.22-19.51.18:561][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Intermediate/Shaders/WorkingDirectory/13424/).
-[2018.04.22-19.51.18:561][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ashee/AppData/Local/Temp/UnrealShaderWorkingDir/BEA18A2E4E4B2C6A24CC18A651B2A993/'.
-[2018.04.22-19.51.18:561][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.22-19.51.19:164][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.22-19.51.19:209][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.22-19.51.19:237][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.22-19.51.19:265][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.22-19.51.19:293][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.22-19.51.19:321][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.22-19.51.19:348][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.22-19.51.19:376][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.22-19.51.19:399][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.22-19.51.19:429][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.22-19.51.19:456][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.22-19.51.19:485][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.22-19.51.19:519][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.22-19.51.19:546][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.22-19.51.19:600][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.22-19.51.19:600][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.22-19.51.19:628][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.22-19.51.19:648][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.22-19.51.19:704][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.22-19.51.19:719][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.22-19.51.19:747][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.22-19.51.19:774][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.22-19.51.19:801][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.22-19.51.19:829][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.22-19.51.19:829][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.22-19.51.20:054][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.22-19.51.20:105][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.22-19.51.20:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.22-19.51.20:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ashee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.22-19.51.20:135][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.22-19.51.20:136][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.22-19.51.20:136][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-19.51.20:136][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-19.51.20:375][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-19.51.20:553][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.22-19.51.20:573][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.22-19.51.20:573][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.22-19.51.20:573][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.22-19.51.20:573][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.22-19.51.20:573][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.22-19.51.20:590][  0]LogNetVersion: Escape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3464171263)
-[2018.04.22-19.51.20:690][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
-[2018.04.22-19.51.21:068][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.086800 seconds
-[2018.04.22-19.51.21:072][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.22-19.51.21:072][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.04.22-19.51.21:072][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.22-19.51.21:095][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.22-19.51.22:681][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.22-19.51.22:708][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.22-19.51.23:407][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.22-19.51.23:632][  0]SourceControl: Source control is disabled
-[2018.04.22-19.51.23:632][  0]SourceControl: Source control is disabled
-[2018.04.22-19.51.23:659][  0]SourceControl: Source control is disabled
-[2018.04.22-19.51.23:686][  0]SourceControl: Source control is disabled
-[2018.04.22-19.51.24:122][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.22-19.51.24:523][  0]LogOcInput: OculusInput pre-init called
-[2018.04.22-19.51.24:699][  0]LogEngine: Initializing Engine...
-[2018.04.22-19.51.24:701][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.22-19.51.24:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.22-19.51.24:847][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.22-19.51.24:914][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.22-19.51.24:922][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.22-19.51.24:931][  0]LogInit: FAudioDevice initialized.
-[2018.04.22-19.51.24:999][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.22-19.51.25:006][  0]LogInit: Texture streaming: Enabled
-[2018.04.22-19.51.25:052][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.22-19.51.25:146][  0]LogInit: Transaction tracking system initialized
-[2018.04.22-19.51.25:297][  0]BlueprintLog: New page: Editor Load
-[2018.04.22-19.51.25:730][  0]LocalizationService: Localization service is disabled
-[2018.04.22-19.51.26:100][  0]LogConsoleResponse: Display: 
-[2018.04.22-19.51.26:302][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.22-19.51.26:302][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.22-19.51.26:302][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.22-19.51.26:635][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' took 0.03s
-[2018.04.22-19.51.26:635][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2018.04.22-19.51.26:635][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2018.04.22-19.51.26:635][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2018.04.22-19.51.26:898][  0]SourceControl: Source control is disabled
-[2018.04.22-19.51.26:898][  0]Cmd: MAP LOAD FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.22-19.51.26:910][  0]LightingResults: New page: Lighting Build
-[2018.04.22-19.51.26:930][  0]MapCheck: New page: Map Check
-[2018.04.22-19.51.26:930][  0]LightingResults: New page: Lighting Build
-[2018.04.22-19.51.28:485][  0]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.04.22-19.51.28:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.22-19.51.28:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.22-19.51.28:565][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 28.342ms to complete.
-[2018.04.22-19.51.28:566][  0]LogFileHelpers: Loading map 'NewMap_BuildData' took 1.667
-[2018.04.22-19.51.29:247][  0]LogCollectionManager: Loaded 0 collections in 0.009759 seconds
-[2018.04.22-19.51.29:469][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' took 0.01s
-[2018.04.22-19.51.29:469][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' took 0.01s
-[2018.04.22-19.51.29:469][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' took 0.01s
-[2018.04.22-19.51.29:469][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.22-19.51.29:484][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2367 classes and 521 folders.
-[2018.04.22-19.51.29:574][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.04.22-19.51.29:970][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.04.22-19.51.30:091][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.04.22-19.51.30:882][  0]LogSlate: Took 0.000559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.22-19.51.30:884][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.22-19.51.30:956][  0]LogSlate: Took 0.008562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.22-19.51.31:311][  0]LogRenderer: Reallocating scene render targets to support 1132x652 Format 10 NumSamples 1 (Frame:1).
-[2018.04.22-19.51.31:774][  0]LogSlate: Took 0.012647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.22-19.51.31:977][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.04.22-19.51.31:977][  0]LogLoad: (Engine Initialization) Total time: 15.98 seconds
-[2018.04.22-19.51.31:977][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.22-19.51.31:977][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.22-19.51.32:001][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.22-19.51.32:112][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.22-19.51.32:507][  1]LogAssetRegistry: Asset discovery search completed in 11.8389 seconds
-[2018.04.22-19.51.32:509][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.22-19.51.32:509][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
-[2018.04.22-19.51.41:939][106]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.22-19.56.42:245][263]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h 
-[2018.04.22-19.56.42:324][263]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h : 42
-[2018.04.22-19.56.42:324][263]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp 
-[2018.04.22-19.56.42:367][263]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp : 42
-[2018.04.22-19.56.42:367][263]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:372][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:373][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:374][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:375][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:376][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:377][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:378][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:378][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:379][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:380][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:380][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:380][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:380][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:382][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:382][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:383][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:383][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:395][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:401][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:401][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:401][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:401][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:401][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:402][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:402][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:403][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:407][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:408][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:408][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:408][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:409][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:410][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:417][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:419][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:419][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:419][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:419][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:420][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:420][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-19.56.42:436][263]LogVSAccessor: Warning: Couldn't access module table
-[2018.04.22-23.07.46:912][657]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{00f45722-87e9-471d-b726-5549b74a67db} was removed. Shutting down audio device.
-[2018.04.22-23.07.46:912][657]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.04.22-23.19.28:750][762]Cmd: QUIT_EDITOR
-[2018.04.22-23.19.28:766][762]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.22-23.19.28:777][762]LogExit: Preparing to exit.
-[2018.04.22-23.19.29:310][762]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
-[2018.04.22-23.19.29:388][762]LogExit: Editor shut down
-[2018.04.22-23.19.29:391][762]LogExit: Transaction tracking system shut down
-[2018.04.22-23.19.29:531][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.22-23.19.29:531][762]LogDirectoryWatcher: A directory notification for '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
-[2018.04.22-23.19.29:531][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.22-23.19.29:532][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.22-23.19.29:532][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.22-23.19.29:532][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.22-23.19.29:532][762]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.22-23.19.29:560][762]LogExit: Object subsystem successfully closed.
-[2018.04.22-23.19.29:572][762]LogD3D11RHI: Shutdown
-[2018.04.22-23.19.29:572][762]LogD3D11RHI: CleanupD3DDevice
-[2018.04.22-23.19.29:573][762]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.22-23.19.29:579][762]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2018.04.22-23.19.29:579][762]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
-[2018.04.22-23.19.29:579][762]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.04.22-23.19.29:579][762]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.04.22-23.19.29:589][762]LogDirectoryWatcher: A directory notification for 'D:/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.04.22-23.19.29:590][762]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' was aborted.
-[2018.04.22-23.19.29:590][762]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' was aborted.
-[2018.04.22-23.19.29:590][762]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' was aborted.
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.04.22-23.19.29:590][762]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.04.22-23.19.29:591][762]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.04.22-23.19.29:599][762]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.04.22-23.19.29:599][762]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.04.22-23.19.29:599][762]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.04.22-23.19.29:599][762]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.04.22-23.19.29:599][762]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.04.22-23.19.30:026][762]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.04.22-23.19.30:079][762]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.04.22-23.19.30:268][762]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.04.22-23.19.30:269][762]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.04.22-23.19.30:320][762]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.04.22-23.19.30:320][762]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64' was aborted.
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module Escape (270)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.04.22-23.19.30:321][762]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.04.22-23.19.30:421][762]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.22-23.19.30:521][762]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.22-23.19.30:522][762]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.22-23.19.30:522][762]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.22-23.19.30:522][762]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.22-23.19.30:522][762]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.22-23.19.30:523][762]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.22-23.19.30:529][762]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.22-23.19.30:530][762]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.22-23.19.30:531][762]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.22-23.19.30:552][762]LogDerivedDataCache: Shutdown
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.22-23.19.30:552][762]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.22-23.19.30:552][762]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.22-23.19.30:552][762]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B99A4CD0B-4AEB-208B-5790-22A90F0AA155%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c623c38a4644157b8d62bd9c96da1125%7Cef80ea24ccd440479d9456400eb2e2ea%7C0fdb0f32-4654-459a-a5e7-020c5999b653&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.22-23.19.30:586][762]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.22-23.19.30:587][762]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.22-23.19.30:588][762]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.22-23.19.30:590][762]LogExit: Exiting.
-[2018.04.22-23.19.30:596][762]Log file closed, 04/22/18 18:19:30
+[2018.04.30-09.40.12:283][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-09.40.12:283][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-09.40.12:411][  0]LogInit: Computer: DESKTOP-DBDP50N
+[2018.04.30-09.40.12:411][  0]LogInit: User: ashee
+[2018.04.30-09.40.12:411][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.30-09.40.12:411][  0]LogInit: High frequency timer resolution =4.101566 MHz
+[2018.04.30-09.40.12:412][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.30-09.40.12:412][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-09.40.12:412][  0]LogMemory: Process Physical Memory: 275.89 MB used, 275.89 MB peak
+[2018.04.30-09.40.12:412][  0]LogMemory: Process Virtual Memory: 269.94 MB used, 269.94 MB peak
+[2018.04.30-09.40.12:412][  0]LogMemory: Physical Memory: 6372.01 MB used,  26329.08 MB free, 32701.09 MB total
+[2018.04.30-09.40.12:412][  0]LogMemory: Virtual Memory: 689.27 MB used,  26329.08 MB free, 134217728.00 MB total
+[2018.04.30-09.40.12:495][  0]LogInit: Using OS detected language (en-US).
+[2018.04.30-09.40.12:495][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.30-09.40.12:497][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.30-09.40.12:773][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.30-09.40.12:916][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-09.40.12:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2018.04.30-09.40.12:962][  0]LogD3D11RHI:       6097/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.30-09.40.12:964][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.30-09.40.12:964][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.30-09.40.12:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-09.40.12:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-09.40.12:969][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-09.40.12:969][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-09.40.12:969][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2018.04.30-09.40.12:969][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.04.30-09.40.12:969][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.04.30-09.40.12:969][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.04.30-09.40.12:969][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.30-09.40.12:969][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2018.04.30-09.40.12:969][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.30-09.40.12:969][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.30-09.40.12:969][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2018.04.30-09.40.12:992][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-09.40.13:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.30-09.40.13:014][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Intermediate/Shaders/WorkingDirectory/11012/).
+[2018.04.30-09.40.13:014][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ashee/AppData/Local/Temp/UnrealShaderWorkingDir/C14F829B484ABA0A7C5188B4EBE69563/'.
+[2018.04.30-09.40.13:014][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.30-09.40.13:596][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-09.40.13:623][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-09.40.13:651][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-09.40.13:680][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-09.40.13:815][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.30-09.40.13:851][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-09.40.13:882][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-09.40.13:925][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-09.40.13:960][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-09.40.13:996][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-09.40.14:029][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-09.40.14:058][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-09.40.14:086][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-09.40.14:112][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-09.40.14:166][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-09.40.14:166][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-09.40.14:193][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-09.40.14:213][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-09.40.14:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.30-09.40.14:284][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-09.40.14:312][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-09.40.14:341][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-09.40.14:369][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-09.40.14:396][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-09.40.14:396][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.30-09.40.14:618][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-09.40.14:665][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-09.40.14:676][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-09.40.14:688][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ashee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-09.40.14:695][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-09.40.14:696][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-09.40.14:696][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-09.40.14:696][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-09.40.14:936][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-09.40.15:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-09.40.15:134][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-09.40.15:134][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-09.40.15:134][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.30-09.40.15:134][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.30-09.40.15:134][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.30-09.40.15:150][  0]LogNetVersion: Escape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3464171263)
+[2018.04.30-09.40.15:248][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2018.04.30-09.40.15:686][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.161640 seconds
+[2018.04.30-09.40.15:690][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.30-09.40.15:690][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.30-09.40.15:690][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-09.40.15:714][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.30-09.40.17:247][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-09.40.17:273][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-09.40.17:716][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.30-09.40.17:939][  0]SourceControl: Source control is disabled
+[2018.04.30-09.40.17:939][  0]SourceControl: Source control is disabled
+[2018.04.30-09.40.17:967][  0]SourceControl: Source control is disabled
+[2018.04.30-09.40.17:994][  0]SourceControl: Source control is disabled
+[2018.04.30-09.40.18:411][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-09.40.18:549][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-09.40.18:767][  0]LogEngine: Initializing Engine...
+[2018.04.30-09.40.18:770][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.30-09.40.18:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-09.40.18:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-09.40.18:977][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-09.40.18:982][  0]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-09.40.18:997][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-09.40.19:066][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.30-09.40.19:074][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-09.40.19:119][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-09.40.19:184][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-09.40.19:335][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-09.40.19:765][  0]LocalizationService: Localization service is disabled
+[2018.04.30-09.40.20:134][  0]LogConsoleResponse: Display: 
+[2018.04.30-09.40.20:288][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-09.40.20:288][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.30-09.40.20:288][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.30-09.40.20:449][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' took 0.01s
+[2018.04.30-09.40.20:618][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.04.30-09.40.20:618][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.04.30-09.40.20:618][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2018.04.30-09.40.20:882][  0]SourceControl: Source control is disabled
+[2018.04.30-09.40.20:882][  0]Cmd: MAP LOAD FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-09.40.20:908][  0]LightingResults: New page: Lighting Build
+[2018.04.30-09.40.20:929][  0]MapCheck: New page: Map Check
+[2018.04.30-09.40.20:929][  0]LightingResults: New page: Lighting Build
+[2018.04.30-09.40.22:400][  0]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-09.40.22:411][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-09.40.22:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-09.40.22:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 31.753ms to complete.
+[2018.04.30-09.40.22:459][  0]LogFileHelpers: Loading map 'NewMap_BuildData' took 1.577
+[2018.04.30-09.40.23:412][  0]LogCollectionManager: Loaded 0 collections in 0.013845 seconds
+[2018.04.30-09.40.23:574][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' took 0.01s
+[2018.04.30-09.40.23:574][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' took 0.01s
+[2018.04.30-09.40.23:574][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' took 0.01s
+[2018.04.30-09.40.23:574][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.30-09.40.23:594][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2367 classes and 521 folders.
+[2018.04.30-09.40.23:690][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.30-09.40.24:163][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2018.04.30-09.40.24:287][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.30-09.40.24:372][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-09.40.24:393][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-09.40.24:421][  0]LogSlate: Took 0.011276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-09.40.24:703][  0]LogRenderer: Reallocating scene render targets to support 1248x652 Format 10 NumSamples 1 (Frame:1).
+[2018.04.30-09.40.24:872][  0]LogSlate: Took 0.009985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-09.40.25:035][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.30-09.40.25:035][  0]LogLoad: (Engine Initialization) Total time: 15.30 seconds
+[2018.04.30-09.40.25:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.30-09.40.25:035][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.30-09.40.25:044][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.30-09.40.25:067][  0]LogAssetRegistry: Asset discovery search completed in 9.8401 seconds
+[2018.04.30-09.40.25:069][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.30-09.40.25:069][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2018.04.30-09.40.25:080][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.30-09.50.31:120][ 59]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-09.50.46:136][104]LogSlate: Took 0.026097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.30-09.50.48:427][369]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-09.50.48:534][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-09.50.48:553][369]PIE: New page: PIE session: NewMap_BuildData (Apr 29, 2018, 11:50:48 PM)
+[2018.04.30-09.50.48:553][369]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.04.30-09.50.48:567][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014109s)
+[2018.04.30-09.50.48:568][369]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-09.50.48:568][369]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.04.30-09.50.48:568][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.015302s)
+[2018.04.30-09.50.48:580][369]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-09.50.48:585][369]LogInit: FAudioDevice initialized.
+[2018.04.30-09.50.48:657][369]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.04.30-09.50.48:675][369]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.04.30-04.50.48
+[2018.04.30-09.50.48:688][369]LogWorld: Bringing up level for play took: 0.013970
+[2018.04.30-09.50.48:788][369]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.30-09.50.48:806][369]LogTemp: Warning: Grabber reporting for duty
+[2018.04.30-09.50.48:806][369]LogTemp: Warning: Input Component is found
+[2018.04.30-09.50.48:806][369]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.04.30-09.50.48:807][369]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.374
+[2018.04.30-09.51.47:640][173]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.30-09.51.47:701][174]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Escape
+[2018.04.30-09.51.47:701][174]LogTemp: CWD: D:\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.30-09.51.47:701][174]LogTemp: Initial Dir: D:\UE_4.18
+[2018.04.30-09.51.47:701][174]LogTemp: Env CWD: D:\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.30-09.51.47:702][174]LogTemp: BranchPath = DESKTOP-DBDP50N/D/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-DBDP50N/D/UE_4.18/Engine/Binaries
+[2018.04.30-09.51.47:702][174]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ashee\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.30-09.55.00:018][190]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-09.55.24:480][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.30-09.56.19:169][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.30-09.57.10:851][567]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.30-09.58.22:199][781]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.30-10.00.00:174][ 75]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h 
+[2018.04.30-10.00.00:258][ 75]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h : 42
+[2018.04.30-10.00.00:258][ 75]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp 
+[2018.04.30-10.00.00:283][ 75]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp : 42
+[2018.04.30-10.00.00:283][ 75]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.30-10.00.00:287][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:287][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:287][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:287][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:288][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:289][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:290][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:291][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:292][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:293][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:294][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:295][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:296][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:297][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:298][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:299][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:303][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:318][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:321][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:321][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:322][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:325][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:325][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:333][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:333][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:336][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.00.00:337][ 75]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.30-10.03.40:255][ 11]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.30-10.03.40:261][ 11]Candidate modules for hot reload:
+[2018.04.30-10.03.40:261][ 11]  Escape
+[2018.04.30-10.03.40:261][ 11]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 1453 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.04.30-10.03.40:265][ 11]Warning: Starting HotReload took  0.0s.
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: New page: Compilation - Apr 30, 2018, 12:04:11 AM
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: Creating makefile for hot reloading Escape (modules to compile have changed)
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: Grabber.cpp
+[2018.04.30-10.04.11:258][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(52) : error C2039: 'Grab': is not a member of 'UGrabber'
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: d:\my documents\repos\unreal class\03_escape\escape\source\escape\Grabber.h(13) : note: see declaration of 'UGrabber'
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(52) : error C2065: 'Grab': undeclared identifier
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(61) : error C2039: 'Grab': is not a member of 'UGrabber'
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: d:\my documents\repos\unreal class\03_escape\escape\source\escape\Grabber.h(13) : note: see declaration of 'UGrabber'
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(68) : error C2601: 'UGrabber::TickComponent': local function definitions are illegal
+[2018.04.30-10.04.11:259][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(62) : note: this line contains a '{' which has not yet been matched
+[2018.04.30-10.04.11:260][725]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(62) : fatal error C1075: '{': no matching token found
+[2018.04.30-10.04.11:260][725]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Binaries\Win64\UE4Editor-Escape-1453.dll
+[2018.04.30-10.04.11:260][725]CompilerResultsLog: Total build time: 30.76 seconds (Local executor: 0.00 seconds)
+[2018.04.30-10.04.11:260][725]LogMainFrame: MainFrame: Module compiling took 31.005 seconds
+[2018.04.30-10.04.11:260][725]Warning: HotReload failed, recompile failed
+[2018.04.30-10.10.20:130][140]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.30-10.10.20:133][140]Candidate modules for hot reload:
+[2018.04.30-10.10.20:133][140]  Escape
+[2018.04.30-10.10.20:133][140]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 4729 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.04.30-10.10.20:136][140]Warning: Starting HotReload took  0.0s.
+[2018.04.30-10.10.59:552][870]CompilerResultsLog: New page: Compilation - Apr 30, 2018, 12:10:59 AM
+[2018.04.30-10.10.59:552][870]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.30-10.10.59:552][870]CompilerResultsLog: Parsing headers for EscapeEditor
+[2018.04.30-10.10.59:552][870]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: Reflection code generated for EscapeEditor in 6.9703579 seconds
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: Grabber.cpp
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: Grabber.gen.cpp
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: [3/4] Link UE4Editor-Escape-4729.dll
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: [4/4] Link UE4Editor-Escape-4729.lib
+[2018.04.30-10.10.59:553][870]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-4729.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-4729.exp
+[2018.04.30-10.10.59:553][870]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-4729.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-4729.suppressed.exp
+[2018.04.30-10.10.59:553][870]CompilerResultsLog: Total build time: 39.27 seconds (Local executor: 31.79 seconds)
+[2018.04.30-10.10.59:553][870]LogMainFrame: MainFrame: Module compiling took 39.423 seconds
+[2018.04.30-10.10.59:997][870]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2018.04.30-10.10.59:999][870]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.30-10.11.00:096][870]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 525 folders.
+[2018.04.30-10.11.00:110][870]Display: HotReload took 40.0s.
+[2018.04.30-10.11.05:473][514]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-10.11.05:482][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-10.11.05:482][514]PIE: New page: PIE session: NewMap_BuildData (Apr 30, 2018, 12:11:05 AM)
+[2018.04.30-10.11.05:482][514]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.04.30-10.11.05:485][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003249s)
+[2018.04.30-10.11.05:486][514]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-10.11.05:486][514]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2018.04.30-10.11.05:486][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.004483s)
+[2018.04.30-10.11.05:509][514]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-10.11.05:515][514]LogInit: FAudioDevice initialized.
+[2018.04.30-10.11.05:545][514]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.04.30-10.11.05:546][514]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.04.30-05.11.05
+[2018.04.30-10.11.05:546][514]LogWorld: Bringing up level for play took: 0.000955
+[2018.04.30-10.11.05:547][514]LogTemp: Warning: Grabber reporting for duty
+[2018.04.30-10.11.05:547][514]LogTemp: Warning: Input Component is found
+[2018.04.30-10.11.05:548][514]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.04.30-10.11.05:548][514]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData -0.884
+[2018.04.30-10.11.07:927][774]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:932][775]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:939][776]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:947][777]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:956][778]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:964][779]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:973][780]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:981][781]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:989][782]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.07:997][783]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:006][784]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:014][785]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:022][786]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:031][787]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:039][788]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:047][789]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:056][790]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:064][791]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:072][792]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:081][793]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:089][794]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:098][795]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:106][796]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:114][797]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:123][798]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:131][799]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:139][800]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:147][801]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:156][802]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:164][803]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:172][804]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:181][805]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:189][806]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:197][807]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:206][808]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:214][809]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:222][810]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:230][811]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:239][812]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:247][813]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:255][814]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:264][815]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:272][816]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:281][817]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:289][818]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:297][819]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:306][820]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:314][821]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:323][822]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:331][823]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:339][824]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:347][825]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:356][826]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:364][827]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:372][828]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:381][829]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:389][830]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:397][831]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:406][832]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:414][833]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:422][834]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:431][835]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:439][836]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:447][837]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:455][838]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:464][839]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:473][840]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:481][841]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:489][842]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:497][843]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:506][844]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:514][845]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:522][846]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:531][847]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:539][848]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:547][849]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:556][850]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:564][851]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:572][852]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:581][853]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:589][854]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:597][855]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:606][856]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:614][857]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:622][858]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:630][859]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:639][860]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:647][861]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:656][862]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:664][863]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:673][864]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:681][865]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:689][866]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:697][867]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:706][868]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:714][869]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:722][870]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:731][871]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:739][872]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:747][873]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:756][874]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:764][875]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:772][876]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:781][877]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:789][878]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:797][879]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:805][880]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:814][881]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:822][882]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:830][883]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:840][884]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:848][885]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:856][886]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:864][887]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:872][888]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:881][889]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:889][890]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:897][891]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:906][892]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:914][893]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:922][894]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:931][895]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:939][896]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:947][897]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:956][898]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:964][899]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:972][900]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:981][901]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:989][902]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.08:997][903]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:005][904]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:014][905]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:022][906]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:031][907]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:039][908]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:048][909]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:056][910]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:064][911]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:072][912]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:081][913]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:089][914]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:097][915]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:106][916]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:114][917]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:122][918]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:131][919]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:139][920]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:147][921]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:156][922]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:164][923]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:172][924]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:180][925]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:189][926]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:197][927]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:205][928]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:214][929]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:223][930]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:231][931]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:239][932]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:247][933]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:256][934]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:264][935]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:272][936]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:281][937]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:289][938]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:297][939]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:306][940]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:314][941]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:322][942]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:331][943]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:339][944]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:347][945]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:356][946]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:364][947]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:372][948]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:380][949]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:389][950]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:397][951]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:406][952]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:414][953]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:423][954]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:431][955]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:439][956]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:447][957]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:456][958]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:464][959]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:472][960]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:481][961]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:489][962]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:497][963]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:506][964]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:514][965]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:522][966]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:531][967]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:539][968]LogTemp: Error: Grab key pressed
+[2018.04.30-10.11.09:540][968]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:547][969]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:556][970]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:564][971]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:572][972]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:580][973]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:589][974]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:598][975]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:606][976]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:614][977]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:622][978]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:631][979]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:639][980]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:647][981]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:656][982]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:664][983]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:672][984]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:681][985]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:689][986]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:697][987]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:706][988]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:714][989]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:722][990]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:731][991]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:739][992]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:747][993]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:755][994]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:764][995]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:772][996]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:781][997]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:789][998]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:798][999]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:806][  0]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:814][  1]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:822][  2]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:831][  3]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:839][  4]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:847][  5]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:856][  6]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:864][  7]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:872][  8]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:881][  9]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:889][ 10]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:897][ 11]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:906][ 12]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:914][ 13]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:922][ 14]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:931][ 15]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:939][ 16]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:947][ 17]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:955][ 18]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:964][ 19]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:973][ 20]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:981][ 21]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:989][ 22]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.09:998][ 23]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:006][ 24]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:014][ 25]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:022][ 26]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:031][ 27]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:039][ 28]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:047][ 29]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:056][ 30]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:064][ 31]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:072][ 32]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:081][ 33]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:089][ 34]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:097][ 35]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:106][ 36]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:114][ 37]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:122][ 38]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:131][ 39]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:139][ 40]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:147][ 41]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:156][ 42]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:164][ 43]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:173][ 44]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:181][ 45]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:189][ 46]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:198][ 47]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:206][ 48]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:214][ 49]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:222][ 50]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:231][ 51]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:239][ 52]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:247][ 53]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:256][ 54]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:264][ 55]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:272][ 56]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:281][ 57]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:289][ 58]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:297][ 59]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:306][ 60]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:314][ 61]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:322][ 62]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:330][ 63]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:339][ 64]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:348][ 65]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:356][ 66]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:364][ 67]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:373][ 68]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:381][ 69]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:389][ 70]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:397][ 71]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:406][ 72]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:414][ 73]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:422][ 74]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:431][ 75]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:439][ 76]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:447][ 77]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:456][ 78]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:464][ 79]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:472][ 80]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:481][ 81]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:489][ 82]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:497][ 83]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:506][ 84]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:514][ 85]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:522][ 86]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:531][ 87]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:539][ 88]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:548][ 89]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:556][ 90]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:564][ 91]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:572][ 92]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:581][ 93]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:589][ 94]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:597][ 95]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:606][ 96]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:614][ 97]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:622][ 98]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:631][ 99]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:639][100]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:647][101]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:656][102]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:664][103]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:672][104]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:681][105]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:689][106]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:697][107]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:705][108]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:714][109]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:723][110]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:731][111]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:739][112]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:748][113]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:756][114]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:764][115]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:772][116]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:781][117]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:789][118]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:797][119]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:806][120]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:814][121]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:822][122]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:831][123]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:839][124]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:847][125]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:856][126]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:864][127]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:872][128]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:880][129]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:889][130]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:897][131]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:905][132]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:914][133]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:923][134]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:931][135]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:939][136]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:947][137]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:956][138]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:964][139]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:972][140]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:981][141]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:989][142]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.10:997][143]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:006][144]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:014][145]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:022][146]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:031][147]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:039][148]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:047][149]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:056][150]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:064][151]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:072][152]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:080][153]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:089][154]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:098][155]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:106][156]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:114][157]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:123][158]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:131][159]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:139][160]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:147][161]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:156][162]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:164][163]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:172][164]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:181][165]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:189][166]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:197][167]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:206][168]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:214][169]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:222][170]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:231][171]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:239][172]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:247][173]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:256][174]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:264][175]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:272][176]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:280][177]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:289][178]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:298][179]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:306][180]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:314][181]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:323][182]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:331][183]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:339][184]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:347][185]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:356][186]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:364][187]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:372][188]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:381][189]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:389][190]LogTemp: Warning: Line trace hit: SM_TableRound_5
+[2018.04.30-10.11.11:873][248]LogTemp: Error: Grab key pressed
+[2018.04.30-10.11.19:602][174]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.18:703][827]LogHotReload: New module detected: UE4Editor-Escape-9422.dll
+[2018.04.30-10.12.19:050][829]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.30-10.12.19:518][829]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0024 seconds. Added 4 classes and 2 folders.
+[2018.04.30-10.12.19:521][829]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.30-10.12.19:549][829]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2369 classes and 525 folders.
+[2018.04.30-10.12.19:556][829]Display: HotReload took  0.5s.
+[2018.04.30-10.12.26:353][397]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-10.12.26:361][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-10.12.26:361][397]PIE: New page: PIE session: NewMap_BuildData (Apr 30, 2018, 12:12:26 AM)
+[2018.04.30-10.12.26:362][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.04.30-10.12.26:364][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002860s)
+[2018.04.30-10.12.26:365][397]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-10.12.26:365][397]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2018.04.30-10.12.26:365][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.003910s)
+[2018.04.30-10.12.26:375][397]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-10.12.26:380][397]LogInit: FAudioDevice initialized.
+[2018.04.30-10.12.26:411][397]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.04.30-10.12.26:412][397]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.04.30-05.12.26
+[2018.04.30-10.12.26:412][397]LogWorld: Bringing up level for play took: 0.000905
+[2018.04.30-10.12.26:413][397]LogTemp: Warning: Grabber reporting for duty
+[2018.04.30-10.12.26:413][397]LogTemp: Warning: Input Component is found
+[2018.04.30-10.12.26:413][397]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.04.30-10.12.26:413][397]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData -0.019
+[2018.04.30-10.12.29:060][711]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.30:693][907]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.31:402][992]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.31:593][ 15]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.31:768][ 36]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:152][ 82]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:310][101]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:427][115]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:585][134]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:827][163]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.32:977][181]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.33:094][195]LogTemp: Error: Grab key pressed
+[2018.04.30-10.12.37:113][671]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.30-10.12.37:115][671]Candidate modules for hot reload:
+[2018.04.30-10.12.37:115][671]  Escape
+[2018.04.30-10.12.37:116][671]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 4371 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.04.30-10.12.37:119][671]Warning: Starting HotReload took  0.0s.
+[2018.04.30-10.12.40:361][ 60]CompilerResultsLog: New page: Compilation - Apr 30, 2018, 12:12:40 AM
+[2018.04.30-10.12.40:362][ 60]CompilerResultsLog: Creating makefile for hot reloading Escape (modules to compile have changed)
+[2018.04.30-10.12.40:362][ 60]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.30-10.12.40:362][ 60]CompilerResultsLog: Target is up to date
+[2018.04.30-10.12.40:362][ 60]CompilerResultsLog: Total build time: 3.08 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.30-10.12.40:362][ 60]LogMainFrame: MainFrame: Module compiling took 3.249 seconds
+[2018.04.30-10.12.40:376][ 60]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2369 classes and 525 folders.
+[2018.04.30-10.12.40:379][ 60]Display: HotReload took  3.3s.
+[2018.04.30-10.12.45:383][661]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-10.12.45:391][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-10.12.45:392][661]PIE: New page: PIE session: NewMap_BuildData (Apr 30, 2018, 12:12:45 AM)
+[2018.04.30-10.12.45:392][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.04.30-10.12.45:394][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002722s)
+[2018.04.30-10.12.45:395][661]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-10.12.45:395][661]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2018.04.30-10.12.45:395][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.003801s)
+[2018.04.30-10.12.45:405][661]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-10.12.45:411][661]LogInit: FAudioDevice initialized.
+[2018.04.30-10.12.45:438][661]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.04.30-10.12.45:440][661]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.04.30-05.12.45
+[2018.04.30-10.12.45:440][661]LogWorld: Bringing up level for play took: 0.000913
+[2018.04.30-10.12.45:441][661]LogTemp: Warning: Grabber reporting for duty
+[2018.04.30-10.12.45:441][661]LogTemp: Warning: Input Component is found
+[2018.04.30-10.12.45:441][661]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.04.30-10.12.45:441][661]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 1.009
+[2018.04.30-10.12.47:338][885]LogTemp: Error: Grab key pressed
+[2018.04.30-10.13.34:627][717]LogHotReload: New module detected: UE4Editor-Escape-807.dll
+[2018.04.30-10.13.34:970][719]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.30-10.13.35:420][719]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2018.04.30-10.13.35:422][719]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.30-10.13.35:451][719]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 525 folders.
+[2018.04.30-10.13.35:457][719]Display: HotReload took  0.5s.
+[2018.04.30-10.13.41:071][801]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x303)
+[2018.04.30-10.13.43:754][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-10.13.43:762][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-10.13.43:762][ 75]PIE: New page: PIE session: NewMap_BuildData (Apr 30, 2018, 12:13:43 AM)
+[2018.04.30-10.13.43:762][ 75]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.04.30-10.13.43:765][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2018.04.30-10.13.43:766][ 75]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.04.30-10.13.43:766][ 75]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.04.30-10.13.43:766][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.003589s)
+[2018.04.30-10.13.43:776][ 75]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-10.13.43:781][ 75]LogInit: FAudioDevice initialized.
+[2018.04.30-10.13.43:813][ 75]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.04.30-10.13.43:815][ 75]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.04.30-05.13.43
+[2018.04.30-10.13.43:815][ 75]LogWorld: Bringing up level for play took: 0.001347
+[2018.04.30-10.13.43:816][ 75]LogTemp: Warning: Grabber reporting for duty
+[2018.04.30-10.13.43:816][ 75]LogTemp: Warning: Input Component is found
+[2018.04.30-10.13.43:817][ 75]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.04.30-10.13.43:817][ 75]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData -0.616
+[2018.04.30-10.13.45:731][301]LogTemp: Warning: Grab key pressed
+[2018.04.30-10.16.01:075][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2018.04.30-10.16.16:701][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.30-10.16.20:279][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.04.30-10.16.21:229][895]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.04.30-10.16.41:634][336]Cmd: MODE GRID=1
+[2018.04.30-10.16.44:543][679]Cmd: MODE GRID=0
+[2018.04.30-10.17.08:806][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuildData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.30-10.17.08:895][564]LogSavePackage: Save=46.94ms
+[2018.04.30-10.17.08:895][564]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuildData556EDE454AE361FAB7EF039FAD6D4E17.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap'
+[2018.04.30-10.17.08:909][564]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap
+[2018.04.30-10.17.08:923][564]LogFileHelpers: Saving map 'NewMap_BuildData' took 0.164
+[2018.04.30-10.17.09:382][617]LogSlate: Took 0.007470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.30-10.17.10:630][758]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.30-10.17.10:800][759]Cmd: QUIT_EDITOR
+[2018.04.30-10.17.11:264][759]LogExit: Preparing to exit.
+[2018.04.30-10.17.11:680][759]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
+[2018.04.30-10.17.11:692][759]LogExit: Editor shut down
+[2018.04.30-10.17.11:695][759]LogExit: Transaction tracking system shut down
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.30-10.17.11:850][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.30-10.17.11:883][759]LogExit: Object subsystem successfully closed.
+[2018.04.30-10.17.11:901][759]LogD3D11RHI: Shutdown
+[2018.04.30-10.17.11:901][759]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-10.17.11:903][759]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module Escape (557)
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (554)
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.04.30-10.17.11:908][759]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.04.30-10.17.11:930][759]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.04.30-10.17.11:933][759]LogDirectoryWatcher: A directory notification for 'D:/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.04.30-10.17.11:934][759]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' was aborted.
+[2018.04.30-10.17.11:934][759]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' was aborted.
+[2018.04.30-10.17.11:934][759]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' was aborted.
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.04.30-10.17.11:934][759]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.04.30-10.17.11:935][759]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.04.30-10.17.12:308][759]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.04.30-10.17.12:309][759]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.04.30-10.17.12:360][759]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.04.30-10.17.12:361][759]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.04.30-10.17.12:389][759]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.04.30-10.17.12:390][759]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.04.30-10.17.12:391][759]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.04.30-10.17.12:393][759]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.04.30-10.17.12:393][759]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.04.30-10.17.12:393][759]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.04.30-10.17.12:393][759]LogDirectoryWatcher: A directory notification for 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64' was aborted.
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.04.30-10.17.12:394][759]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.04.30-10.17.12:494][759]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.04.30-10.17.12:604][759]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.04.30-10.17.12:605][759]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.04.30-10.17.12:607][759]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.04.30-10.17.12:612][759]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.04.30-10.17.12:613][759]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.04.30-10.17.12:614][759]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.04.30-10.17.12:615][759]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.04.30-10.17.12:666][759]LogDerivedDataCache: Shutdown
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-10.17.12:667][759]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-10.17.12:667][759]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.30-10.17.12:667][759]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF924103C-4545-3CC5-EED6-F281C74AF08A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c623c38a4644157b8d62bd9c96da1125%7Cef80ea24ccd440479d9456400eb2e2ea%7C0fdb0f32-4654-459a-a5e7-020c5999b653&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-10.17.12:700][759]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.30-10.17.12:701][759]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-10.17.12:702][759]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-10.17.12:705][759]LogExit: Exiting.
+[2018.04.30-10.17.12:714][759]Log file closed, 04/30/18 05:17:12

@@ -1,16 +1,10 @@
-﻿  Compiling game modules for hot reload
-  Distributing 3 actions to XGE
-  --------------------Project: Default-------------------------------------------
-  Grabber.cpp (0:00.21 at +0:00)
-  UE4Editor-Escape-2405.lib (0:00.07 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.exp
-  UE4Editor-Escape-2405.dll (0:00.46 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2405.suppressed.exp
-  ---------------------- Done ----------------------
-   
-      Rebuild All: 1 succeeded, 0 failed, 0 skipped
-   
-  
-  
+﻿  Creating makefile for hot reloading EscapeEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  Grabber.cpp
+  [2/3] Link UE4Editor-Escape-807.dll
+  [3/3] Link UE4Editor-Escape-807.lib
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.exp
+     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.suppressed.exp
   Deploying EscapeEditor Win64 Development...
-  Total build time: 1.72 seconds (XGE executor: 0.90 seconds)
+  Total build time: 3.93 seconds (Local executor: 0.91 seconds)

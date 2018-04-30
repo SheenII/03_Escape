@@ -1,6 +1,7 @@
 // Copyright 2018 Andrew Sheen
 
-
+/* includes in current UE are used when needed.
+they call it declare what you use */
 #include "Grabber.h"
 #include "Engine/World.h"
 #include "CoreMinimal.h"
@@ -11,7 +12,9 @@
 #define OUT
 
 
-// Sets default values for this component's properties
+/// Sets default values for this component's properties
+/*Scope resolution operator (::) in C++ programming language is used to define a function outside a class
+or when we want to use a global variable but also has a local variable with the same name. */
 UGrabber::UGrabber()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
@@ -26,13 +29,39 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
-
 	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty"));
 
-	// ...
+	/// Look for attached physics handle
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	if (PhysicsHandle)
+	{
+		/// If physics handle is found
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("PhysicsHandle component not attached to %s"), *GetOwner()->GetName())
+	}
+
+	/// Look for attached Input Components (only appears at runtime)
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+	if (InputComponent)
+	{
+		/// If physics handle is found
+		UE_LOG(LogTemp, Warning, TEXT("Input Component is found"))
+			/// Bind the input axis
+			InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s is missing input component"), *GetOwner()->GetName())
+	}
 	
 }
 
+void UGrabber::Grab()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab key pressed"))
+}
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
