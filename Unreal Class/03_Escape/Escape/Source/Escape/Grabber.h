@@ -37,4 +37,6 @@ private:
 	//Raycast and grab what is in reach
 	void Grab();
 
+	//Raycast and grab what is in reach
+	void Release();
 };

@@ -1,10 +1,14 @@
-﻿  Creating makefile for hot reloading EscapeEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
+﻿  Compiling game modules for hot reload
+  Parsing headers for EscapeEditor
+    Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeEditor in 7.7862221 seconds
+  Performing 4 actions (4 in parallel)
+  Grabber.gen.cpp
   Grabber.cpp
-  [2/3] Link UE4Editor-Escape-807.dll
-  [3/3] Link UE4Editor-Escape-807.lib
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.exp
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-807.suppressed.exp
-  Deploying EscapeEditor Win64 Development...
-  Total build time: 3.93 seconds (Local executor: 0.91 seconds)
+d:\my documents\repos\unreal class\03_escape\escape\source\escape\Grabber.h(40): error C2086: 'UInputComponent *UGrabber::InputComponent': redefinition
+  d:\my documents\repos\unreal class\03_escape\escape\source\escape\Grabber.h(36): note: see declaration of 'UGrabber::InputComponent'
+D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.h(40): error C2086: 'UInputComponent *UGrabber::InputComponent': redefinition
+  D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.h(36): note: see declaration of 'UGrabber::InputComponent'
+ERROR : UBT error : Failed to produce item: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Binaries\Win64\UE4Editor-Escape-4003.dll
+  Total build time: 50.89 seconds (Local executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "D:\UE_4.18\Engine\Build\BatchFiles\Build.bat EscapeEditor Win64 Development "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

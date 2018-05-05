@@ -10,7 +10,13 @@ they call it declare what you use */
 
 //This is defining our own Macro. 
 #define OUT
-
+/// When do we use :: or , or ->
+/// If the left hand term is a Class, Enum or Namspace then you us ::. These will be items
+/// stored in permanenet storage.
+/// If the left hand item is a Pointer then you will use the ->. 
+/// If the left hand item is an Instance or a Reference then you use the . .
+/// The last two items will or might vary at runtime. These are differnet than
+/// uing the :: since this is a known item in memory.
 
 /// Sets default values for this component's properties
 /*Scope resolution operator (::) in C++ programming language is used to define a function outside a class
@@ -50,11 +56,13 @@ void UGrabber::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("Input Component is found"))
 			/// Bind the input axis
 			InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+			InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
 	}
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s is missing input component"), *GetOwner()->GetName())
 	}
+
 	
 }
 
@@ -62,6 +70,12 @@ void UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab key pressed"))
 }
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Grab key released"))
+}
+
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
