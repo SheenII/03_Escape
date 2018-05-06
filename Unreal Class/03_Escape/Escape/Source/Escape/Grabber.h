@@ -37,6 +37,13 @@ private:
 	//Raycast and grab what is in reach
 	void Grab();
 
-	//Raycast and grab what is in reach
+	//Called when grab is released
 	void Release();
+
+	//Find (assumed) attached physics handle component
+	void FindPhysicsHandleComponent();
+
+	//Set-up (assumed) attached input component
+	void SetupInputComponent();
+
 };

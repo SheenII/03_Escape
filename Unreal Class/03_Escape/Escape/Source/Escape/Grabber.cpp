@@ -18,6 +18,9 @@ they call it declare what you use */
 /// The last two items will or might vary at runtime. These are differnet than
 /// uing the :: since this is a known item in memory.
 
+/* A Hot Loop is code that gets called often. We want and need to be able to know what code is called alot.
+TickComponent is a good example. It get's called everyframe.*/
+
 /// Sets default values for this component's properties
 /*Scope resolution operator (::) in C++ programming language is used to define a function outside a class
 or when we want to use a global variable but also has a local variable with the same name. */
@@ -25,9 +28,9 @@ UGrabber::UGrabber()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
+	
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
 }
 
 
@@ -35,9 +38,14 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty"));
+	FindPhysicsHandleComponent();
+	SetupInputComponent();
 
-	/// Look for attached physics handle
+	
+}
+/// Look for attached physics handle
+void UGrabber::FindPhysicsHandleComponent()
+{	
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	if (PhysicsHandle)
 	{
@@ -48,7 +56,10 @@ void UGrabber::BeginPlay()
 		UE_LOG(LogTemp, Error, TEXT("PhysicsHandle component not attached to %s"), *GetOwner()->GetName())
 	}
 
-	/// Look for attached Input Components (only appears at runtime)
+}
+/// Look for attached Input Components (only appears at runtime)
+void UGrabber::SetupInputComponent()
+{
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (InputComponent)
 	{
@@ -56,19 +67,20 @@ void UGrabber::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("Input Component is found"))
 			/// Bind the input axis
 			InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
-			InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
+		InputComponent->BindAction("Grab", IE_Released, this, &UGrabber::Release);
 	}
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s is missing input component"), *GetOwner()->GetName())
 	}
-
-	
 }
 
 void UGrabber::Grab()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grab key pressed"))
+
+	// Try and reach any actors with physics body collision set
+
 }
 
 void UGrabber::Release()
