@@ -1,9 +1,9 @@
 ﻿  Distributing 3 actions to XGE
   --------------------Project: Default-------------------------------------------
-  Grabber.cpp (0:00.79 at +0:00)
-  UE4Editor-Escape.lib (0:00.17 at +0:00)
+  Grabber.cpp (0:00.35 at +0:00)
+  UE4Editor-Escape.lib (0:00.12 at +0:00)
      Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.exp
-  UE4Editor-Escape.dll (0:00.53 at +0:00)
+  UE4Editor-Escape.dll (0:00.65 at +0:00)
      Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.suppressed.exp
   ---------------------- Done ----------------------
    
@@ -11,4 +11,4 @@
    
   
   
-  Total build time: 2.11 seconds (XGE executor: 1.48 seconds)
+  Total build time: 1.80 seconds (XGE executor: 1.19 seconds)

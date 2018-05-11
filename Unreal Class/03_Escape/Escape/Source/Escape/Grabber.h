@@ -34,6 +34,7 @@ private:
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
 	UInputComponent* InputComponent = nullptr;
+
 	//Raycast and grab what is in reach
 	void Grab();
 
@@ -45,5 +46,8 @@ private:
 
 	//Set-up (assumed) attached input component
 	void SetupInputComponent();
+
+	//Return hit for first physics body in reach
+	const FHitResult GetFirstphysicsBodyInReach();
 
 };
