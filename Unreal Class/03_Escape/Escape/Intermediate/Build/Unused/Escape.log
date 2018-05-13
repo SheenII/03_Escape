@@ -1,14 +1,17 @@
-﻿  Distributing 3 actions to XGE
+﻿  Creating makefile for hot reloading EscapeEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Distributing 3 actions to XGE
   --------------------Project: Default-------------------------------------------
-  Grabber.cpp (0:00.35 at +0:00)
-  UE4Editor-Escape.lib (0:00.12 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.exp
-  UE4Editor-Escape.dll (0:00.65 at +0:00)
-     Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape.suppressed.exp
+  Grabber.cpp (0:00.21 at +0:00)
+D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(102): error C3867: 'UGrabber::GetReachLineEnd': non-standard syntax; use '&' to create a pointer to member
+  
+  Error executing C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\cl.exe (tool returned code: 2)
   ---------------------- Done ----------------------
+ERROR : UBT error : Failed to produce item: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Binaries\Win64\UE4Editor-Escape-6803.dll
    
-      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+      Rebuild All: 0 succeeded, 1 failed, 0 skipped
    
   
   
-  Total build time: 1.80 seconds (XGE executor: 1.19 seconds)
+  Total build time: 7.10 seconds (XGE executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "D:\UE_4.18\Engine\Build\BatchFiles\Build.bat EscapeEditor Win64 Development "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

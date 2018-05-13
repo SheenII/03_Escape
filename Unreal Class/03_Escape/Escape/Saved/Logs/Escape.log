@@ -1,4 +1,4 @@
-﻿Log file open, 05/10/18 20:32:16
+﻿Log file open, 05/13/18 07:21:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Escape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(659774384) SRandInit(659774384).
+LogInit: Display: RandInit(-748663762) SRandInit(-748663762).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.274846
+LogStats: Stats thread started at 0.148421
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64/UE4Editor-Escape.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Binaries/Win64/UE4Editor-Escape-2404.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -192,746 +192,415 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: D:/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.11-01.32.17:835][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.11-01.32.17:835][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.11-01.32.17:846][  0]LogInit: Computer: DESKTOP-DBDP50N
-[2018.05.11-01.32.17:846][  0]LogInit: User: ashee
-[2018.05.11-01.32.17:846][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.11-01.32.17:846][  0]LogInit: High frequency timer resolution =4.101563 MHz
-[2018.05.11-01.32.17:846][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.05.11-01.32.17:846][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.11-01.32.17:846][  0]LogMemory: Process Physical Memory: 275.38 MB used, 275.38 MB peak
-[2018.05.11-01.32.17:846][  0]LogMemory: Process Virtual Memory: 269.89 MB used, 269.89 MB peak
-[2018.05.11-01.32.17:846][  0]LogMemory: Physical Memory: 7948.78 MB used,  24752.31 MB free, 32701.09 MB total
-[2018.05.11-01.32.17:846][  0]LogMemory: Virtual Memory: 682.77 MB used,  24752.31 MB free, 134217728.00 MB total
-[2018.05.11-01.32.17:978][  0]LogInit: Using OS detected language (en-US).
-[2018.05.11-01.32.17:978][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.11-01.32.18:015][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.11-01.32.18:481][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.11-01.32.19:252][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.11-01.32.19:292][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
-[2018.05.11-01.32.19:292][  0]LogD3D11RHI:       6097/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.11-01.32.19:327][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.05.11-01.32.19:327][  0]LogD3D11RHI:       4043/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.11-01.32.19:329][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.11-01.32.19:329][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.11-01.32.19:329][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.11-01.32.19:335][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.11-01.32.19:336][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.11-01.32.19:336][  0]LogWindows: EnumDisplayDevices:
-[2018.05.11-01.32.19:336][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
-[2018.05.11-01.32.19:336][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.05.11-01.32.19:336][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows:    7. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.05.11-01.32.19:336][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.11-01.32.19:336][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
-[2018.05.11-01.32.19:336][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.11-01.32.19:336][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.11-01.32.19:336][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
-[2018.05.11-01.32.19:368][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.11-01.32.19:388][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.11-01.32.19:389][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Intermediate/Shaders/WorkingDirectory/3412/).
-[2018.05.11-01.32.19:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ashee/AppData/Local/Temp/UnrealShaderWorkingDir/26C8ED984E9C076C2BF8A89BDFA7EDF3/'.
-[2018.05.11-01.32.19:389][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.11-01.32.22:456][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.11-01.32.22:491][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.11-01.32.22:527][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.11-01.32.22:562][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.11-01.32.22:598][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.11-01.32.22:633][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.11-01.32.22:667][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.11-01.32.22:703][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.11-01.32.22:733][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.11-01.32.22:767][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.11-01.32.22:801][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.11-01.32.22:835][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.11-01.32.22:870][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.11-01.32.22:904][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.11-01.32.22:973][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.11-01.32.22:973][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.11-01.32.23:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.11-01.32.23:033][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.11-01.32.23:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.11-01.32.23:126][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.11-01.32.23:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.11-01.32.23:194][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.11-01.32.23:228][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.11-01.32.23:263][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.11-01.32.23:263][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.11-01.32.23:672][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: Loaded boot cache 0.25s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.11-01.32.23:919][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.11-01.32.23:956][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.11-01.32.23:968][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ashee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.11-01.32.23:975][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.11-01.32.23:975][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.11-01.32.24:012][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.11-01.32.24:012][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.11-01.32.24:599][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.11-01.32.25:261][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.11-01.32.25:318][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.11-01.32.25:318][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.11-01.32.25:318][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.11-01.32.25:318][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.11-01.32.25:318][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.11-01.32.25:366][  0]LogNetVersion: Escape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3464171263)
-[2018.05.11-01.32.25:604][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
-[2018.05.11-01.32.27:856][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.036523 seconds
-[2018.05.11-01.32.27:860][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.11-01.32.27:860][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.11-01.32.27:860][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.11-01.32.27:888][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.11-01.32.38:444][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.11-01.32.38:477][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.11-01.32.39:134][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.11-01.32.39:465][  0]SourceControl: Source control is disabled
-[2018.05.11-01.32.39:465][  0]SourceControl: Source control is disabled
-[2018.05.11-01.32.39:501][  0]SourceControl: Source control is disabled
-[2018.05.11-01.32.39:541][  0]SourceControl: Source control is disabled
-[2018.05.11-01.32.40:209][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.11-01.32.40:415][  0]LogOcInput: OculusInput pre-init called
-[2018.05.11-01.32.40:664][  0]LogEngine: Initializing Engine...
-[2018.05.11-01.32.40:677][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.11-01.32.40:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.11-01.32.40:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.11-01.32.41:051][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.11-01.32.41:062][  0]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-01.32.41:079][  0]LogInit: FAudioDevice initialized.
-[2018.05.11-01.32.41:145][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.11-01.32.41:151][  0]LogInit: Texture streaming: Enabled
-[2018.05.11-01.32.41:220][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.11-01.32.41:298][  0]LogInit: Transaction tracking system initialized
-[2018.05.11-01.32.41:504][  0]BlueprintLog: New page: Editor Load
-[2018.05.11-01.32.42:097][  0]LocalizationService: Localization service is disabled
-[2018.05.11-01.32.42:691][  0]LogConsoleResponse: Display: 
-[2018.05.11-01.32.43:163][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.11-01.32.43:163][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.11-01.32.43:163][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.11-01.32.43:670][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' took 0.01s
-[2018.05.11-01.32.43:670][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2018.05.11-01.32.43:670][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
-[2018.05.11-01.32.43:670][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2018.05.11-01.32.44:234][  0]SourceControl: Source control is disabled
-[2018.05.11-01.32.44:234][  0]Cmd: MAP LOAD FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.11-01.32.44:291][  0]LightingResults: New page: Lighting Build
-[2018.05.11-01.32.44:315][  0]MapCheck: New page: Map Check
-[2018.05.11-01.32.44:315][  0]LightingResults: New page: Lighting Build
-[2018.05.11-01.32.45:738][  0]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-01.32.45:766][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.11-01.32.45:775][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.11-01.32.45:814][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.119ms to complete.
-[2018.05.11-01.32.45:814][  0]LogFileHelpers: Loading map 'NewMap_BuildData' took 1.580
-[2018.05.11-01.32.46:340][  0]LogCollectionManager: Loaded 0 collections in 0.000702 seconds
-[2018.05.11-01.32.46:414][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' took 0.01s
-[2018.05.11-01.32.46:414][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' took 0.01s
-[2018.05.11-01.32.46:414][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' took 0.01s
-[2018.05.11-01.32.46:414][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.11-01.32.46:421][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2367 classes and 521 folders.
-[2018.05.11-01.32.46:455][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.11-01.32.46:839][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2018.05.11-01.32.46:893][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.11-01.32.46:933][  0]LogSlate: Took 0.010074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.11-01.32.46:939][  0]LogSlate: Took 0.003997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.11-01.32.46:947][  0]LogSlate: Took 0.006387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.11-01.32.46:955][  0]LogSlate: Took 0.007483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.05.11-01.32.47:057][  0]LogRenderer: Reallocating scene render targets to support 1248x652 Format 10 NumSamples 1 (Frame:1).
-[2018.05.11-01.32.47:216][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.11-01.32.47:216][  0]LogLoad: (Engine Initialization) Total time: 33.33 seconds
-[2018.05.11-01.32.47:216][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.11-01.32.47:216][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.11-01.32.47:225][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.11-01.32.47:237][  0]LogAssetRegistry: Asset discovery search completed in 21.6546 seconds
-[2018.05.11-01.32.47:239][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.11-01.32.47:239][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000123 seconds (updated 0 objects)
-[2018.05.11-01.32.47:241][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.11-01.33.31:007][383]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-01.33.31:025][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-01.33.31:058][383]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 3:33:31 PM)
-[2018.05.11-01.33.31:058][383]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-01.33.31:061][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003249s)
-[2018.05.11-01.33.31:062][383]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-01.33.31:062][383]LogPlayLevel: PIE: World Init took: (0.000570s)
-[2018.05.11-01.33.31:062][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.004338s)
-[2018.05.11-01.33.31:072][383]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-01.33.31:084][383]LogInit: FAudioDevice initialized.
-[2018.05.11-01.33.31:197][383]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-01.33.31:199][383]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-20.33.31
-[2018.05.11-01.33.31:200][383]LogWorld: Bringing up level for play took: 0.001160
-[2018.05.11-01.33.31:226][383]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.05.11-01.33.31:228][383]LogTemp: Warning: Input Component is found
-[2018.05.11-01.33.31:228][383]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-01.33.31:228][383]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData -0.743
-[2018.05.11-01.33.37:148][ 81]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.33.37:148][ 81]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.33.37:548][129]LogTemp: Warning: Grab key released
-[2018.05.11-01.33.39:898][411]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.33.40:289][458]LogTemp: Warning: Grab key released
-[2018.05.11-01.33.43:656][862]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.33.43:656][862]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.33.44:173][924]LogTemp: Warning: Grab key released
-[2018.05.11-01.33.44:756][994]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.33.44:756][994]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.33.45:922][134]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.19:439][ 74]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-01.35.19:443][ 74]Candidate modules for hot reload:
-[2018.05.11-01.35.19:443][ 74]  Escape
-[2018.05.11-01.35.19:443][ 74]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 4618 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-01.35.21:052][ 74]Warning: Starting HotReload took  1.6s.
-[2018.05.11-01.35.22:946][300]CompilerResultsLog: New page: Compilation - May 10, 2018, 3:35:22 PM
-[2018.05.11-01.35.22:947][300]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-01.35.22:947][300]CompilerResultsLog: Target is up to date
-[2018.05.11-01.35.22:947][300]CompilerResultsLog: Total build time: 0.54 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.11-01.35.22:947][300]LogMainFrame: MainFrame: Module compiling took 3.508 seconds
-[2018.05.11-01.35.22:964][300]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2369 classes and 525 folders.
-[2018.05.11-01.35.22:966][300]Display: HotReload took  3.5s.
-[2018.05.11-01.35.26:230][692]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-01.35.26:239][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-01.35.26:239][692]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 3:35:26 PM)
-[2018.05.11-01.35.26:239][692]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-01.35.26:246][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006957s)
-[2018.05.11-01.35.26:247][692]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-01.35.26:247][692]LogPlayLevel: PIE: World Init took: (0.000624s)
-[2018.05.11-01.35.26:247][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.008023s)
-[2018.05.11-01.35.26:257][692]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-01.35.26:268][692]LogInit: FAudioDevice initialized.
-[2018.05.11-01.35.26:296][692]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-01.35.26:297][692]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-20.35.26
-[2018.05.11-01.35.26:297][692]LogWorld: Bringing up level for play took: 0.000907
-[2018.05.11-01.35.26:298][692]LogTemp: Warning: Input Component is found
-[2018.05.11-01.35.26:298][692]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-01.35.26:298][692]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.327
-[2018.05.11-01.35.31:432][304]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.31:432][304]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.35.31:598][324]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.31:998][372]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.31:998][372]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.35.33:090][503]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.44:708][897]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.44:708][897]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.35.45:783][ 26]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.46:650][130]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.46:650][130]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.35.46:832][152]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.47:342][213]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.47:491][231]LogTemp: Warning: Grab key released
-[2018.05.11-01.35.47:816][270]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.35.47:817][270]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.35.49:666][492]LogTemp: Warning: Grab key released
-[2018.05.11-01.47.48:426][189]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-01.47.48:431][189]Candidate modules for hot reload:
-[2018.05.11-01.47.48:431][189]  Escape
-[2018.05.11-01.47.48:432][189]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 1463 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-01.47.50:130][189]Warning: Starting HotReload took  1.7s.
-[2018.05.11-01.47.51:965][409]CompilerResultsLog: New page: Compilation - May 10, 2018, 3:47:51 PM
-[2018.05.11-01.47.51:965][409]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-01.47.51:965][409]CompilerResultsLog: Target is up to date
-[2018.05.11-01.47.51:966][409]CompilerResultsLog: Total build time: 0.39 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.11-01.47.51:966][409]LogMainFrame: MainFrame: Module compiling took 3.539 seconds
-[2018.05.11-01.47.51:982][409]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2369 classes and 525 folders.
-[2018.05.11-01.47.51:984][409]Display: HotReload took  3.6s.
-[2018.05.11-01.47.58:185][151]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-01.47.58:193][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-01.47.58:193][151]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 3:47:58 PM)
-[2018.05.11-01.47.58:193][151]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-01.47.58:197][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003028s)
-[2018.05.11-01.47.58:197][151]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-01.47.58:198][151]LogPlayLevel: PIE: World Init took: (0.000776s)
-[2018.05.11-01.47.58:198][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.004273s)
-[2018.05.11-01.47.58:207][151]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-01.47.58:220][151]LogInit: FAudioDevice initialized.
-[2018.05.11-01.47.58:248][151]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-01.47.58:249][151]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-20.47.58
-[2018.05.11-01.47.58:250][151]LogWorld: Bringing up level for play took: 0.000945
-[2018.05.11-01.47.58:251][151]LogTemp: Warning: Input Component is found
-[2018.05.11-01.47.58:251][151]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-01.47.58:251][151]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.281
-[2018.05.11-01.48.03:085][727]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.03:086][727]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.48.04:443][890]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.05:377][  2]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.05:377][  2]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.48.05:735][ 45]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.06:119][ 91]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.06:119][ 91]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.48.07:170][217]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.08:537][381]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.08:537][381]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.09:212][462]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.09:320][475]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.09:320][475]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.10:603][629]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.10:754][647]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.10:754][647]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.11:395][724]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.11:529][740]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.11:529][740]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.11:936][789]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.14:020][ 39]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.14:020][ 39]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.14:570][105]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.14:762][128]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.14:762][128]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.15:728][244]LogTemp: Warning: Grab key released
-[2018.05.11-01.48.17:096][408]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.48.17:096][408]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-01.48.17:462][452]LogTemp: Warning: Grab key released
-[2018.05.11-01.53.06:170][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.05.11-01.57.32:389][447]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-01.57.32:393][447]Candidate modules for hot reload:
-[2018.05.11-01.57.32:394][447]  Escape
-[2018.05.11-01.57.32:394][447]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 6191 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-01.57.33:999][447]Warning: Starting HotReload took  1.6s.
-[2018.05.11-01.57.47:089][767]CompilerResultsLog: New page: Compilation - May 10, 2018, 3:57:47 PM
-[2018.05.11-01.57.47:089][767]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-01.57.47:089][767]CompilerResultsLog: 
-[2018.05.11-01.57.47:089][767]CompilerResultsLog: Unhandled Exception: Distributing 3 actions to XGE
-[2018.05.11-01.57.47:089][767]CompilerResultsLog: UnrealBuildTool.BuildException: In D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp: #include "PhysicsEngine\PhysicsHandleComponent.h" contains backslashes ('\'), please use forward slashes ('/') instead.
-[2018.05.11-01.57.47:089][767]CompilerResultsLog:    at UnrealBuildTool.CPPHeaders.CollectHeaders(FileReference ProjectFile, FileItem CPPFile, String FileToRead, String FileContents, String InstalledFolder, Int32 StartIndex, Int32 EndIndex)
-[2018.05.11-01.57.47:090][767]CompilerResultsLog:    at UnrealBuildTool.CPPHeaders.GetUncachedDirectIncludeDependencies(FileItem CPPFile, FileReference ProjectFile)
-[2018.05.11-01.57.47:090][767]CompilerResultsLog:    at UnrealBuildTool.CPPHeaders.GetDirectIncludeDependencies(FileItem CPPFile, Boolean bOnlyCachedDependencies)
-[2018.05.11-01.57.47:090][767]CompilerResultsLog:    at UnrealBuildTool.CPPHeaders.FindAndCacheAllIncludedFiles(FileItem CPPFile, CppIncludePaths IncludePaths, IncludedFilesSet& Result, Boolean bOnlyCachedDependencies)
-[2018.05.11-01.57.47:090][767]CompilerResultsLog:    at UnrealBuildTool.CPPHeaders.FindAndCacheAllIncludedFiles(FileItem SourceFile, CppIncludePaths IncludePaths, Boolean bOnlyCachedDependencies)
-[2018.05.11-01.57.47:090][767]CompilerResultsLog:    at UnrealBuildTool.UnrealBuildTool.<>c__DisplayClass53_0.<CreateThreadForCachingCPPIncludes>b__0()
-[2018.05.11-01.57.47:091][767]CompilerResultsLog:    at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-[2018.05.11-01.57.47:091][767]CompilerResultsLog:    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-[2018.05.11-01.57.47:091][767]CompilerResultsLog:    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-[2018.05.11-01.57.47:091][767]CompilerResultsLog:    at System.Threading.ThreadHelper.ThreadStart()
-[2018.05.11-01.57.47:091][767]CompilerResultsLog: --------------------Project: Default-------------------------------------------
-[2018.05.11-01.57.47:091][767]CompilerResultsLog: 
-[2018.05.11-01.57.47:091][767]CompilerResultsLog: Grabber.cpp (0:01.11 at +0:00)
-[2018.05.11-01.57.47:091][767]CompilerResultsLog: UE4Editor-Escape-6191.lib (0:00.09 at +0:01)
-[2018.05.11-01.57.47:091][767]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6191.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6191.exp
-[2018.05.11-01.57.47:092][767]CompilerResultsLog: UE4Editor-Escape-6191.dll (0:00.54 at +0:01)
-[2018.05.11-01.57.47:092][767]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6191.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-6191.suppressed.exp
-[2018.05.11-01.57.47:092][767]CompilerResultsLog: ---------------------- Done ----------------------
-[2018.05.11-01.57.47:092][767]CompilerResultsLog: 
-[2018.05.11-01.57.47:092][767]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2018.05.11-01.57.47:092][767]CompilerResultsLog: 
-[2018.05.11-01.57.47:092][767]CompilerResultsLog: 
-[2018.05.11-01.57.47:092][767]LogMainFrame: MainFrame: Module compiling took 14.703 seconds
-[2018.05.11-01.57.47:092][767]Warning: HotReload failed, recompile failed
-[2018.05.11-01.57.52:539][409]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-01.57.52:543][409]Candidate modules for hot reload:
-[2018.05.11-01.57.52:543][409]  Escape
-[2018.05.11-01.57.52:543][409]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 1550 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-01.57.54:153][409]Warning: Starting HotReload took  1.6s.
-[2018.05.11-01.57.56:607][703]CompilerResultsLog: New page: Compilation - May 10, 2018, 3:57:56 PM
-[2018.05.11-01.57.56:607][703]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-01.57.56:607][703]CompilerResultsLog: Performing full C++ include scan (no include cache file)
-[2018.05.11-01.57.56:607][703]CompilerResultsLog: ERROR: In D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp: #include "PhysicsEngine\PhysicsHandleComponent.h" contains backslashes ('\'), please use forward slashes ('/') instead.
-[2018.05.11-01.57.56:607][703]LogMainFrame: MainFrame: Module compiling took 4.068 seconds
-[2018.05.11-01.57.56:608][703]Warning: HotReload failed, recompile failed
-[2018.05.11-01.58.20:520][363]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-01.58.20:524][363]Candidate modules for hot reload:
-[2018.05.11-01.58.20:524][363]  Escape
-[2018.05.11-01.58.20:524][363]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 7135 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-01.58.22:118][363]Warning: Starting HotReload took  1.6s.
-[2018.05.11-01.58.25:238][737]CompilerResultsLog: New page: Compilation - May 10, 2018, 3:58:25 PM
-[2018.05.11-01.58.25:239][737]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-01.58.25:239][737]CompilerResultsLog: Distributing 3 actions to XGE
-[2018.05.11-01.58.25:239][737]CompilerResultsLog: --------------------Project: Default-------------------------------------------
-[2018.05.11-01.58.25:239][737]CompilerResultsLog: Grabber.cpp (0:00.65 at +0:00)
-[2018.05.11-01.58.25:239][737]CompilerResultsLog: UE4Editor-Escape-7135.lib (0:00.10 at +0:00)
-[2018.05.11-01.58.25:239][737]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-7135.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-7135.exp
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: UE4Editor-Escape-7135.dll (0:00.59 at +0:00)
-[2018.05.11-01.58.25:240][737]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-7135.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-7135.suppressed.exp
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: ---------------------- Done ----------------------
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: 
-[2018.05.11-01.58.25:240][737]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: 
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: 
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: 
-[2018.05.11-01.58.25:240][737]CompilerResultsLog: Total build time: 1.80 seconds (XGE executor: 1.42 seconds)
-[2018.05.11-01.58.25:240][737]LogMainFrame: MainFrame: Module compiling took 4.720 seconds
-[2018.05.11-01.58.25:293][737]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 4 classes and 2 folders.
-[2018.05.11-01.58.25:294][737]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.11-01.58.25:356][737]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2369 classes and 525 folders.
-[2018.05.11-01.58.25:358][737]Display: HotReload took  4.8s.
-[2018.05.11-01.58.28:839][155]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-01.58.28:848][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-01.58.28:848][155]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 3:58:28 PM)
-[2018.05.11-01.58.28:848][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-01.58.28:851][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003105s)
-[2018.05.11-01.58.28:852][155]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-01.58.28:852][155]LogPlayLevel: PIE: World Init took: (0.000974s)
-[2018.05.11-01.58.28:853][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.004555s)
-[2018.05.11-01.58.28:862][155]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-01.58.28:874][155]LogInit: FAudioDevice initialized.
-[2018.05.11-01.58.28:903][155]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-01.58.28:904][155]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-20.58.28
-[2018.05.11-01.58.28:904][155]LogWorld: Bringing up level for play took: 0.001001
-[2018.05.11-01.58.28:905][155]LogTemp: Warning: Input Component is found
-[2018.05.11-01.58.28:906][155]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-01.58.28:906][155]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.935
-[2018.05.11-01.58.32:504][583]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.32:853][625]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.34:787][857]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.34:787][857]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.41:195][626]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.41:612][676]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.41:613][676]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.41:746][692]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.43:971][959]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.43:971][959]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.44:087][973]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.44:421][ 13]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.44:421][ 13]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.44:512][ 24]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.44:738][ 51]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.44:738][ 51]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.44:896][ 70]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.46:546][268]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.46:546][268]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.46:854][305]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.47:271][355]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.47:271][355]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.47:379][368]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.47:496][382]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.47:496][382]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.47:587][393]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.47:688][405]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.47:688][405]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.47:787][417]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.47:879][428]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.47:879][428]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.47:995][442]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.48:079][452]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.48:079][452]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.48:912][552]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.52:371][967]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.52:371][967]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.52:721][  9]LogTemp: Warning: Grab key released
-[2018.05.11-01.58.56:871][507]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.58.56:871][507]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.58.57:021][525]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.00:705][967]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.00:705][967]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.00:804][979]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.00:905][991]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.00:905][991]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.01:706][ 87]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.02:172][143]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.02:173][143]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.03:622][317]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.03:723][329]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.03:723][329]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.03:797][338]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.03:890][349]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.03:890][349]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.04:089][373]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.04:123][377]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.04:123][377]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.04:206][387]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.04:265][394]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.04:265][394]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.04:331][402]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.04:398][410]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.04:398][410]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.04:456][417]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.05:464][538]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.05:465][538]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.05:764][574]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.06:123][617]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.14:164][582]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.17:106][935]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.17:198][946]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.17:807][ 19]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.17:948][ 36]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.18:315][ 80]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.18:573][111]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.18:740][131]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.18:740][131]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-01.59.18:914][152]LogTemp: Warning: Grab key released
-[2018.05.11-01.59.19:032][166]LogTemp: Warning: Grab key pressed
-[2018.05.11-01.59.19:189][185]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.09:154][478]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-02.01.09:159][478]Candidate modules for hot reload:
-[2018.05.11-02.01.09:159][478]  Escape
-[2018.05.11-02.01.09:159][478]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 8216 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-02.01.11:235][478]Warning: Starting HotReload took  2.1s.
-[2018.05.11-02.01.12:889][665]CompilerResultsLog: New page: Compilation - May 10, 2018, 4:01:12 PM
-[2018.05.11-02.01.12:889][665]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-02.01.12:889][665]CompilerResultsLog: Target is up to date
-[2018.05.11-02.01.12:889][665]CompilerResultsLog: Total build time: 0.35 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.11-02.01.12:889][665]LogMainFrame: MainFrame: Module compiling took 3.735 seconds
-[2018.05.11-02.01.12:906][665]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2369 classes and 525 folders.
-[2018.05.11-02.01.12:908][665]Display: HotReload took  3.8s.
-[2018.05.11-02.01.14:191][819]MapCheck: New page: Map Check
-[2018.05.11-02.01.14:206][819]Cmd: MAP REBUILD ALLVISIBLE
-[2018.05.11-02.01.14:206][819]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.05.11-02.01.14:311][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.05.11-02.01.14:316][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.05.11-02.01.14:321][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.05.11-02.01.14:325][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
-[2018.05.11-02.01.14:329][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
-[2018.05.11-02.01.14:334][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
-[2018.05.11-02.01.14:339][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2018.05.11-02.01.14:343][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
-[2018.05.11-02.01.14:347][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_2, compiling. 
-[2018.05.11-02.01.14:352][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_3, compiling. 
-[2018.05.11-02.01.14:356][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
-[2018.05.11-02.01.14:361][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
-[2018.05.11-02.01.14:366][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Ceiling_Mat, compiling. 
-[2018.05.11-02.01.14:370][819]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
-[2018.05.11-02.01.15:930][819]TextureStreamingBuild: Display: Compiling optional shaders took 1.624 seconds.
-[2018.05.11-02.01.15:995][819]LogLevel: Display: Export Material TexCoord Scales took 0.065 seconds.
-[2018.05.11-02.01.16:011][819]TextureStreamingBuild: Display: Build Texture Streaming took 0.015 seconds.
-[2018.05.11-02.01.16:017][819]LightingResults: New page: Lighting Build - May 10, 2018, 4:01:16 PM
-[2018.05.11-02.01.16:091][819]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.05.11-02.01.16:334][819]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.05.11-02.01.16:347][819]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.05.11-02.01.17:391][819]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.05.11-02.01.17:391][819]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3412
-[2018.05.11-02.01.19:503][819]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.05.11-02.01.19:504][819]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.05.11-02.01.19:504][819]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.05.11-02.01.19:504][819]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.05.11-02.01.19:504][819]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.05.11-02.01.19:504][819]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.05.11-02.01.19:609][819]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.05.11-02.01.19:609][819]MapCheck: New page: NewMap_BuildData - May 10, 2018, 4:01:19 PM
-[2018.05.11-02.01.19:654][819]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.136ms to complete.
-[2018.05.11-02.01.19:676][819]LogEditorBuildUtils: Build time 0:05
-[2018.05.11-02.01.20:974][908]Job is a success!
-[2018.05.11-02.01.21:017][909]LogSlate: Took 0.024217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.11-02.01.21:045][909]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
-[2018.05.11-02.01.21:045][909]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.05.11-02.01.21:046][909]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
-[2018.05.11-02.01.21:046][909]LogVolumetricLightmapImport:      Bricks at Level
-[2018.05.11-02.01.21:046][909]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2018.05.11-02.01.21:046][909]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2018.05.11-02.01.21:046][909]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2018.05.11-02.01.21:058][909]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
-[2018.05.11-02.01.21:058][909]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
-[2018.05.11-02.01.21:058][909]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 32X32)
-[2018.05.11-02.01.21:076][909]Lightmass on DESKTOP-DBDP50N: 785 ms total, 83 ms importing, 18 ms setup, 374 ms photons, 275 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.77 sec total, 70 ms processing.
-[2018.05.11-02.01.21:091][909]LogStaticLightingSystem: Illumination: 5.06 sec (3 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2018.05.11-02.01.21:091][909]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.05.11-02.01.21:092][909]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
-[2018.05.11-02.01.21:508][909]DumpUnbuiltLightIteractions
-[2018.05.11-02.01.21:508][909]Lights with unbuilt interactions: 0
-[2018.05.11-02.01.21:508][909]
-[2018.05.11-02.01.21:508][909]Primitives with unbuilt interactions: 0
-[2018.05.11-02.01.21:544][910]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.05.11-02.01.21:544][910]MapCheck: New page: NewMap_BuildData - May 10, 2018, 4:01:21 PM
-[2018.05.11-02.01.21:585][910]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.104ms to complete.
-[2018.05.11-02.01.28:873][784]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-02.01.28:881][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-02.01.28:881][784]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 4:01:28 PM)
-[2018.05.11-02.01.28:881][784]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-02.01.28:884][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002065s)
-[2018.05.11-02.01.28:884][784]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-02.01.28:884][784]LogPlayLevel: PIE: World Init took: (0.000800s)
-[2018.05.11-02.01.28:885][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.003253s)
-[2018.05.11-02.01.28:894][784]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-02.01.28:906][784]LogInit: FAudioDevice initialized.
-[2018.05.11-02.01.28:937][784]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-02.01.28:938][784]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-21.01.28
-[2018.05.11-02.01.28:938][784]LogWorld: Bringing up level for play took: 0.000975
-[2018.05.11-02.01.28:940][784]LogTemp: Warning: Input Component is found
-[2018.05.11-02.01.28:940][784]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-02.01.28:940][784]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.969
-[2018.05.11-02.01.31:331][ 61]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.31:498][ 81]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.32:040][146]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.32:739][230]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.32:923][252]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.33:089][272]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.34:631][457]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.34:631][457]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.35:056][508]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.36:040][626]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.36:040][626]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.36:414][671]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.36:790][716]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.36:790][716]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.37:073][750]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.37:423][792]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.37:423][792]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.37:848][843]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.38:098][873]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.38:273][894]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.38:515][923]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.38:714][947]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.38:882][967]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.39:623][ 56]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.39:732][ 69]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.39:732][ 69]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.39:923][ 92]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.40:007][102]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.40:007][102]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.40:148][119]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.40:223][128]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.40:223][128]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.40:365][145]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.40:440][154]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.40:440][154]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.40:548][167]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.40:640][178]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.40:640][178]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.40:740][190]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.40:840][202]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.40:840][202]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.40:931][213]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:023][224]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:023][224]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:098][233]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:298][257]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:298][257]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:348][263]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:407][270]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:407][270]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:490][280]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:548][287]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:548][287]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:615][295]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:682][303]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:682][303]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:739][310]LogTemp: Warning: Grab key released
-[2018.05.11-02.01.41:815][319]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.01.41:815][319]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.01.41:865][325]LogTemp: Warning: Grab key released
-[2018.05.11-02.02.00:691][781]LogSlate: Took 0.002196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.11-02.02.09:798][808]LogSavePackage: Save=94.78ms
-[2018.05.11-02.02.09:799][808]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuildData_Auto1948D03B846F35B01F0E2EAA05476E9F3.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuildData_Auto1.umap'
-[2018.05.11-02.02.09:805][808]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuildData_Auto1.umap
-[2018.05.11-02.02.09:806][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap_BuildData' took 0.119
-[2018.05.11-02.02.09:807][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
-[2018.05.11-02.02.09:808][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuildData_BuiltData] ([1] browsable assets)...
-[2018.05.11-02.02.09:808][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuildData_BuiltData]
-[2018.05.11-02.02.09:815][808]LogSavePackage: Save=1.93ms
-[2018.05.11-02.02.09:815][808]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuildData_BuiltData_Auto12AACA11C45E2F1823F31FC8578DCBA6D.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuildData_BuiltData_Auto1.uasset'
-[2018.05.11-02.02.09:816][808]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Autosaves/Game/NewMap_BuildData_BuiltData_Auto1.uasset
-[2018.05.11-02.02.09:816][808]LogFileHelpers: Auto-saving content packages took 0.008
-[2018.05.11-02.04.15:327][445]MapCheck: New page: Map Check
-[2018.05.11-02.04.15:339][445]Cmd: MAP REBUILD ALLVISIBLE
-[2018.05.11-02.04.15:339][445]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.05.11-02.04.15:404][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.05.11-02.04.15:408][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2018.05.11-02.04.15:414][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.05.11-02.04.15:419][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
-[2018.05.11-02.04.15:423][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
-[2018.05.11-02.04.15:427][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
-[2018.05.11-02.04.15:432][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2018.05.11-02.04.15:437][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
-[2018.05.11-02.04.15:441][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_2, compiling. 
-[2018.05.11-02.04.15:446][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_3, compiling. 
-[2018.05.11-02.04.15:450][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_4, compiling. 
-[2018.05.11-02.04.15:455][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Concrete_Tiles_5, compiling. 
-[2018.05.11-02.04.15:460][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy My_Ceiling_Mat, compiling. 
-[2018.05.11-02.04.15:464][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
-[2018.05.11-02.04.16:577][445]TextureStreamingBuild: Display: Compiling optional shaders took 1.176 seconds.
-[2018.05.11-02.04.16:586][445]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
-[2018.05.11-02.04.16:590][445]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
-[2018.05.11-02.04.16:596][445]LightingResults: New page: Lighting Build - May 10, 2018, 4:04:16 PM
-[2018.05.11-02.04.16:601][445]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.05.11-02.04.16:603][445]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.05.11-02.04.16:603][445]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.05.11-02.04.16:604][445]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.05.11-02.04.16:604][445]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3412
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.05.11-02.04.21:151][445]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.05.11-02.04.21:218][445]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.05.11-02.04.21:218][445]MapCheck: New page: NewMap_BuildData - May 10, 2018, 4:04:21 PM
-[2018.05.11-02.04.21:261][445]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.662ms to complete.
-[2018.05.11-02.04.21:283][445]LogEditorBuildUtils: Build time 0:05
-[2018.05.11-02.04.22:509][537]Job is a success!
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:      Bricks at Level
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2018.05.11-02.04.22:549][538]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2018.05.11-02.04.22:559][538]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
-[2018.05.11-02.04.22:559][538]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
-[2018.05.11-02.04.22:559][538]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.05.11-02.04.22:574][538]Lightmass on DESKTOP-DBDP50N: 757 ms total, 87 ms importing, 17 ms setup, 375 ms photons, 243 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.54 sec total, 74 ms processing.
-[2018.05.11-02.04.22:579][538]LogStaticLightingSystem: Illumination: 5.97 sec (3 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2018.05.11-02.04.22:579][538]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.05.11-02.04.22:579][538]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
-[2018.05.11-02.04.23:154][538]DumpUnbuiltLightIteractions
-[2018.05.11-02.04.23:154][538]Lights with unbuilt interactions: 0
-[2018.05.11-02.04.23:154][538]
-[2018.05.11-02.04.23:154][538]Primitives with unbuilt interactions: 0
-[2018.05.11-02.04.23:195][539]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.05.11-02.04.23:195][539]MapCheck: New page: NewMap_BuildData - May 10, 2018, 4:04:23 PM
-[2018.05.11-02.04.23:233][539]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.909ms to complete.
-[2018.05.11-02.04.25:508][811]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.11-02.04.25:512][811]Candidate modules for hot reload:
-[2018.05.11-02.04.25:512][811]  Escape
-[2018.05.11-02.04.25:513][811]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 2404 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
-[2018.05.11-02.04.27:174][811]Warning: Starting HotReload took  1.7s.
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: New page: Compilation - May 10, 2018, 4:04:30 PM
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: Distributing 3 actions to XGE
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: --------------------Project: Default-------------------------------------------
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: Grabber.cpp (0:00.95 at +0:00)
-[2018.05.11-02.04.30:619][223]CompilerResultsLog: UE4Editor-Escape-2404.lib (0:00.15 at +0:00)
-[2018.05.11-02.04.30:620][223]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2404.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2404.exp
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: UE4Editor-Escape-2404.dll (0:00.59 at +0:00)
-[2018.05.11-02.04.30:620][223]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2404.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2404.suppressed.exp
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: ---------------------- Done ----------------------
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: 
-[2018.05.11-02.04.30:620][223]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: 
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: 
-[2018.05.11-02.04.30:620][223]CompilerResultsLog: 
-[2018.05.11-02.04.30:621][223]CompilerResultsLog: Total build time: 2.10 seconds (XGE executor: 1.73 seconds)
-[2018.05.11-02.04.30:621][223]LogMainFrame: MainFrame: Module compiling took 5.112 seconds
-[2018.05.11-02.04.30:671][223]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0004 seconds. Added 4 classes and 2 folders.
-[2018.05.11-02.04.30:672][223]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.11-02.04.30:701][223]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2369 classes and 525 folders.
-[2018.05.11-02.04.30:703][223]Display: HotReload took  5.2s.
-[2018.05.11-02.04.32:441][432]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.11-02.04.32:452][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.11-02.04.32:452][432]PIE: New page: PIE session: NewMap_BuildData (May 10, 2018, 4:04:32 PM)
-[2018.05.11-02.04.32:452][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
-[2018.05.11-02.04.32:455][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002478s)
-[2018.05.11-02.04.32:455][432]LogAIModule: Creating AISystem for world NewMap_BuildData
-[2018.05.11-02.04.32:456][432]LogPlayLevel: PIE: World Init took: (0.000820s)
-[2018.05.11-02.04.32:456][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.003789s)
-[2018.05.11-02.04.32:467][432]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.05.11-02.04.32:481][432]LogInit: FAudioDevice initialized.
-[2018.05.11-02.04.32:516][432]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
-[2018.05.11-02.04.32:517][432]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.10-21.04.32
-[2018.05.11-02.04.32:517][432]LogWorld: Bringing up level for play took: 0.001055
-[2018.05.11-02.04.32:519][432]LogTemp: Warning: Input Component is found
-[2018.05.11-02.04.32:519][432]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
-[2018.05.11-02.04.32:519][432]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData 0.548
-[2018.05.11-02.04.37:347][  1]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.04.37:655][ 38]LogTemp: Warning: Grab key released
-[2018.05.11-02.04.38:198][103]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.04.38:198][103]LogTemp: Warning: Line trace hit: SM_Chair_2
-[2018.05.11-02.04.46:139][ 56]LogTemp: Warning: Grab key released
-[2018.05.11-02.04.50:698][603]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.04.50:698][603]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.04.57:282][380]LogTemp: Warning: Grab key released
-[2018.05.11-02.04.57:624][421]LogTemp: Warning: Grab key pressed
-[2018.05.11-02.04.57:624][421]LogTemp: Warning: Line trace hit: SM_TableRound_5
-[2018.05.11-02.04.57:640][423]LogTemp: Warning: Grab key released
-[2018.05.11-02.05.10:999][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuildData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.11-02.05.11:091][469]LogSavePackage: Save=81.52ms
-[2018.05.11-02.05.11:091][469]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuildData87F2780C4520A813969B36A96CCEB755.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap'
-[2018.05.11-02.05.11:093][469]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap
-[2018.05.11-02.05.11:106][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuildData_BuiltData" FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData_BuiltData.uasset" SILENT=true
-[2018.05.11-02.05.11:113][469]LogSavePackage: Save=3.65ms
-[2018.05.11-02.05.11:113][469]LogSavePackage: Moving '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/NewMap_BuildData_BuiltData2B84470040AD8208437F26B501E11046.tmp' to '../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData_BuiltData.uasset'
-[2018.05.11-02.05.11:116][469]LogSavePackage: Display: Finished SavePackage ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData_BuiltData.uasset
+[2018.05.13-12.21.53:782][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-12.21.53:782][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.13-12.21.53:822][  0]LogInit: Computer: DESKTOP-DBDP50N
+[2018.05.13-12.21.53:822][  0]LogInit: User: ashee
+[2018.05.13-12.21.53:822][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.13-12.21.53:822][  0]LogInit: High frequency timer resolution =4.101568 MHz
+[2018.05.13-12.21.53:823][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.05.13-12.21.53:823][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.13-12.21.53:823][  0]LogMemory: Process Physical Memory: 275.33 MB used, 275.33 MB peak
+[2018.05.13-12.21.53:823][  0]LogMemory: Process Virtual Memory: 269.94 MB used, 269.94 MB peak
+[2018.05.13-12.21.53:823][  0]LogMemory: Physical Memory: 6863.32 MB used,  25837.77 MB free, 32701.09 MB total
+[2018.05.13-12.21.53:823][  0]LogMemory: Virtual Memory: 682.79 MB used,  25837.77 MB free, 134217728.00 MB total
+[2018.05.13-12.21.53:899][  0]LogInit: Using OS detected language (en-US).
+[2018.05.13-12.21.53:899][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.13-12.21.53:901][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.13-12.21.54:190][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.13-12.21.54:346][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.13-12.21.54:381][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2018.05.13-12.21.54:381][  0]LogD3D11RHI:       6097/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.13-12.21.54:416][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.05.13-12.21.54:416][  0]LogD3D11RHI:       4043/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.13-12.21.54:418][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.13-12.21.54:418][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.13-12.21.54:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.13-12.21.54:423][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.13-12.21.54:423][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.13-12.21.54:423][  0]LogWindows: EnumDisplayDevices:
+[2018.05.13-12.21.54:424][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2018.05.13-12.21.54:424][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.05.13-12.21.54:424][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows:    7. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.05.13-12.21.54:424][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.13-12.21.54:424][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2018.05.13-12.21.54:424][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.13-12.21.54:424][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.13-12.21.54:424][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2018.05.13-12.21.54:449][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.13-12.21.54:473][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.13-12.21.54:474][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Intermediate/Shaders/WorkingDirectory/18844/).
+[2018.05.13-12.21.54:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ashee/AppData/Local/Temp/UnrealShaderWorkingDir/26E186AB432F39079042358F179A08C3/'.
+[2018.05.13-12.21.54:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.13-12.21.55:094][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.13-12.21.55:122][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.13-12.21.55:150][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.13-12.21.55:178][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.13-12.21.55:206][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.13-12.21.55:233][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.13-12.21.55:261][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.13-12.21.55:288][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.13-12.21.55:311][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.13-12.21.55:338][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.13-12.21.55:365][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.13-12.21.55:392][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.13-12.21.55:420][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.13-12.21.55:448][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.13-12.21.55:502][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.13-12.21.55:502][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.13-12.21.55:529][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.13-12.21.55:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.13-12.21.55:605][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.13-12.21.55:620][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.13-12.21.55:648][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.13-12.21.55:676][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.13-12.21.55:703][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.13-12.21.55:730][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.13-12.21.55:730][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.13-12.21.55:957][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.13-12.21.56:006][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.13-12.21.56:017][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.13-12.21.56:029][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ashee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.13-12.21.56:036][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.13-12.21.56:036][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.13-12.21.56:038][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-12.21.56:038][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-12.21.56:286][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-12.21.56:467][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.13-12.21.56:487][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.13-12.21.56:487][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.13-12.21.56:487][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.13-12.21.56:487][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.13-12.21.56:487][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.13-12.21.56:510][  0]LogNetVersion: Escape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3464171263)
+[2018.05.13-12.21.56:611][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2018.05.13-12.21.56:993][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.116796 seconds
+[2018.05.13-12.21.56:997][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.13-12.21.56:997][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.13-12.21.56:997][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.13-12.21.57:022][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.13-12.21.58:648][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.13-12.21.58:675][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.13-12.21.59:157][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.13-12.21.59:388][  0]SourceControl: Source control is disabled
+[2018.05.13-12.21.59:388][  0]SourceControl: Source control is disabled
+[2018.05.13-12.21.59:416][  0]SourceControl: Source control is disabled
+[2018.05.13-12.21.59:443][  0]SourceControl: Source control is disabled
+[2018.05.13-12.21.59:887][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.13-12.22.00:026][  0]LogOcInput: OculusInput pre-init called
+[2018.05.13-12.22.00:192][  0]LogEngine: Initializing Engine...
+[2018.05.13-12.22.00:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.13-12.22.00:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.13-12.22.00:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.13-12.22.00:392][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.13-12.22.00:399][  0]LogInit: XAudio2 using 'Speakers (Logitech G633 Gaming Headset)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.05.13-12.22.00:414][  0]LogInit: FAudioDevice initialized.
+[2018.05.13-12.22.00:478][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/ashee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.13-12.22.00:486][  0]LogInit: Texture streaming: Enabled
+[2018.05.13-12.22.00:532][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.13-12.22.00:597][  0]LogInit: Transaction tracking system initialized
+[2018.05.13-12.22.00:750][  0]BlueprintLog: New page: Editor Load
+[2018.05.13-12.22.01:182][  0]LocalizationService: Localization service is disabled
+[2018.05.13-12.22.01:586][  0]LogConsoleResponse: Display: 
+[2018.05.13-12.22.01:743][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.13-12.22.01:743][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.13-12.22.01:743][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.13-12.22.02:075][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/' took 0.03s
+[2018.05.13-12.22.02:075][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.05.13-12.22.02:075][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2018.05.13-12.22.02:075][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2018.05.13-12.22.02:342][  0]SourceControl: Source control is disabled
+[2018.05.13-12.22.02:342][  0]Cmd: MAP LOAD FILE="../../../../My Documents/Repos/Unreal Class/03_Escape/Escape/Content/NewMap_BuildData.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.13-12.22.02:359][  0]LightingResults: New page: Lighting Build
+[2018.05.13-12.22.02:380][  0]MapCheck: New page: Map Check
+[2018.05.13-12.22.02:380][  0]LightingResults: New page: Lighting Build
+[2018.05.13-12.22.03:855][  0]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.05.13-12.22.03:871][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.13-12.22.03:888][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.13-12.22.03:925][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.361ms to complete.
+[2018.05.13-12.22.03:925][  0]LogFileHelpers: Loading map 'NewMap_BuildData' took 1.583
+[2018.05.13-12.22.05:148][  0]LogCollectionManager: Loaded 0 collections in 0.008831 seconds
+[2018.05.13-12.22.05:260][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Saved/Collections/' took 0.01s
+[2018.05.13-12.22.05:260][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Developers/ashee/Collections/' took 0.01s
+[2018.05.13-12.22.05:260][  0]LogFileCache: Scanning file cache for directory 'D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Content/Collections/' took 0.01s
+[2018.05.13-12.22.05:260][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.13-12.22.05:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2367 classes and 521 folders.
+[2018.05.13-12.22.05:326][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.13-12.22.05:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.05.13-12.22.05:849][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.13-12.22.05:969][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.13-12.22.05:988][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.13-12.22.06:007][  0]LogSlate: Took 0.002803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.13-12.22.06:041][  0]LogSlate: Took 0.024341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.13-12.22.06:270][  0]LogRenderer: Reallocating scene render targets to support 1248x652 Format 10 NumSamples 1 (Frame:1).
+[2018.05.13-12.22.06:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.05.13-12.22.06:462][  0]LogLoad: (Engine Initialization) Total time: 15.48 seconds
+[2018.05.13-12.22.06:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.13-12.22.06:462][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.13-12.22.06:471][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-12.22.06:492][  0]LogAssetRegistry: Asset discovery search completed in 9.9029 seconds
+[2018.05.13-12.22.06:493][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.13-12.22.06:493][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000117 seconds (updated 0 objects)
+[2018.05.13-12.22.06:495][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.13-12.22.14:019][882]LogSlate: Took 0.012031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.13-12.22.38:341][776]LogRenderer: Reallocating scene render targets to support 1516x652 Format 10 NumSamples 1 (Frame:3731).
+[2018.05.13-12.22.44:827][545]LogRenderer: Reallocating scene render targets to support 1516x664 Format 10 NumSamples 1 (Frame:4176).
+[2018.05.13-12.22.44:862][546]LogRenderer: Reallocating scene render targets to support 1516x672 Format 10 NumSamples 1 (Frame:4178).
+[2018.05.13-12.22.44:903][547]LogRenderer: Reallocating scene render targets to support 1516x680 Format 10 NumSamples 1 (Frame:4180).
+[2018.05.13-12.22.44:938][548]LogRenderer: Reallocating scene render targets to support 1516x688 Format 10 NumSamples 1 (Frame:4182).
+[2018.05.13-12.22.44:974][549]LogRenderer: Reallocating scene render targets to support 1516x692 Format 10 NumSamples 1 (Frame:4184).
+[2018.05.13-12.22.45:010][550]LogRenderer: Reallocating scene render targets to support 1516x696 Format 10 NumSamples 1 (Frame:4186).
+[2018.05.13-12.22.45:043][551]LogRenderer: Reallocating scene render targets to support 1516x704 Format 10 NumSamples 1 (Frame:4188).
+[2018.05.13-12.22.45:080][552]LogRenderer: Reallocating scene render targets to support 1516x708 Format 10 NumSamples 1 (Frame:4190).
+[2018.05.13-12.22.45:113][553]LogRenderer: Reallocating scene render targets to support 1516x720 Format 10 NumSamples 1 (Frame:4192).
+[2018.05.13-12.22.45:152][554]LogRenderer: Reallocating scene render targets to support 1516x724 Format 10 NumSamples 1 (Frame:4194).
+[2018.05.13-12.22.45:185][555]LogRenderer: Reallocating scene render targets to support 1516x728 Format 10 NumSamples 1 (Frame:4196).
+[2018.05.13-12.22.56:788][649]LogRenderer: Reallocating scene render targets to support 1572x728 Format 10 NumSamples 1 (Frame:4914).
+[2018.05.13-12.22.56:823][650]LogRenderer: Reallocating scene render targets to support 1668x728 Format 10 NumSamples 1 (Frame:4916).
+[2018.05.13-12.22.56:862][651]LogRenderer: Reallocating scene render targets to support 1764x728 Format 10 NumSamples 1 (Frame:4918).
+[2018.05.13-12.22.56:903][652]LogRenderer: Reallocating scene render targets to support 1848x728 Format 10 NumSamples 1 (Frame:4920).
+[2018.05.13-12.22.56:945][653]LogRenderer: Reallocating scene render targets to support 1892x728 Format 10 NumSamples 1 (Frame:4922).
+[2018.05.13-13.19.27:508][513]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-13.19.40:201][551]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.13-13.24.40:614][723]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h 
+[2018.05.13-13.24.40:675][723]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.h : 42
+[2018.05.13-13.24.40:676][723]LogWindows: LaunchFileInExternalEditor D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp 
+[2018.05.13-13.24.40:710][723]LogWindows: Launch application code for D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Source/Escape/Grabber.cpp : 42
+[2018.05.13-13.24.40:710][723]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.13-13.24.40:714][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:714][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:714][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:714][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:715][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:716][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:717][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:717][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:717][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:717][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:718][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:719][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:720][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:721][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:722][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:723][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:724][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:725][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:726][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:727][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:728][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:729][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:734][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:754][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:756][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:756][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:757][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:761][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:761][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:767][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:771][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:772][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:773][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-13.24.40:784][723]LogVSAccessor: Warning: Couldn't access module table
+[2018.05.13-14.10.25:134][156]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.13-14.10.25:358][156]Candidate modules for hot reload:
+[2018.05.13-14.10.25:358][156]  Escape
+[2018.05.13-14.10.25:358][156]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 239 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.05.13-14.10.25:366][156]Warning: Starting HotReload took  0.2s.
+[2018.05.13-14.11.09:074][388]CompilerResultsLog: New page: Compilation - May 13, 2018, 4:11:09 AM
+[2018.05.13-14.11.09:074][388]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.13-14.11.09:074][388]CompilerResultsLog: Parsing headers for EscapeEditor
+[2018.05.13-14.11.09:074][388]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Escape.uproject" "D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\EscapeEditor\Development\EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.05.13-14.11.09:074][388]CompilerResultsLog: Reflection code generated for EscapeEditor in 9.0926279 seconds
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Distributing 3 actions to XGE
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Grabber.cpp (0:33.34 at +0:00)
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(119) : error C2065: 'LineTraceEnd': undeclared identifier
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(185) : error C3861: 'GetWorld': identifier not found
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(185) : error C2227: left of '->GetFirstPlayerController' must point to class/struct/union/generic type
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(185) : note: type is 'unknown-type'
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(185) : error C2227: left of '->GetPlayerViewPoint' must point to class/struct/union/generic type
+[2018.05.13-14.11.09:075][388]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(193) : error C2065: 'Reach': undeclared identifier
+[2018.05.13-14.11.09:081][388]CompilerResultsLog: 
+[2018.05.13-14.11.09:081][388]CompilerResultsLog: Error executing C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\cl.exe (tool returned code: 2)
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: ---------------------- Done ----------------------
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: 
+[2018.05.13-14.11.09:082][388]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: 
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: 
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: 
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Binaries\Win64\UE4Editor-Escape-239.dll
+[2018.05.13-14.11.09:082][388]CompilerResultsLog: Total build time: 43.48 seconds (XGE executor: 0.00 seconds)
+[2018.05.13-14.11.09:082][388]LogMainFrame: MainFrame: Module compiling took 43.947 seconds
+[2018.05.13-14.11.09:082][388]Warning: HotReload failed, recompile failed
+[2018.05.13-14.11.32:566][291]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.13-14.11.32:571][291]Candidate modules for hot reload:
+[2018.05.13-14.11.32:571][291]  Escape
+[2018.05.13-14.11.32:571][291]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 2664 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.05.13-14.11.32:574][291]Warning: Starting HotReload took  0.0s.
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: New page: Compilation - May 13, 2018, 4:11:33 AM
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: Distributing 3 actions to XGE
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: Grabber.cpp (0:00.28 at +0:00)
+[2018.05.13-14.11.33:581][412]CompilerResultsLog: Error: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Source\Escape\Grabber.cpp(108) : error C3867: 'UGrabber::GetReachLineEnd': non-standard syntax; use '&' to create a pointer to member
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: 
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: Error executing C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\cl.exe (tool returned code: 2)
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: ---------------------- Done ----------------------
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: 
+[2018.05.13-14.11.33:582][412]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: 
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: 
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: 
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Binaries\Win64\UE4Editor-Escape-2664.dll
+[2018.05.13-14.11.33:582][412]CompilerResultsLog: Total build time: 0.85 seconds (XGE executor: 0.00 seconds)
+[2018.05.13-14.11.33:582][412]LogMainFrame: MainFrame: Module compiling took 1.016 seconds
+[2018.05.13-14.11.33:582][412]Warning: HotReload failed, recompile failed
+[2018.05.13-14.23.05:669][ 39]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.13-14.23.05:674][ 39]Candidate modules for hot reload:
+[2018.05.13-14.23.05:674][ 39]  Escape
+[2018.05.13-14.23.05:674][ 39]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Escape -ModuleWithSuffix Escape 2273 Win64 Development -editorrecompile -canskiplink "D:/My Documents/Repos/Unreal Class/03_Escape/Escape/Escape.uproject" ]
+[2018.05.13-14.23.05:677][ 39]Warning: Starting HotReload took  0.0s.
+[2018.05.13-14.23.23:111][131]CompilerResultsLog: New page: Compilation - May 13, 2018, 4:23:23 AM
+[2018.05.13-14.23.23:111][131]CompilerResultsLog: Creating makefile for hot reloading Escape (modules to compile have changed)
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: Distributing 3 actions to XGE
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: Grabber.cpp (0:12.59 at +0:00)
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: UE4Editor-Escape-2273.lib (0:00.56 at +0:12)
+[2018.05.13-14.23.23:112][131]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2273.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2273.exp
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: UE4Editor-Escape-2273.dll (0:01.31 at +0:12)
+[2018.05.13-14.23.23:112][131]CompilerResultsLog:    Creating library D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2273.suppressed.lib and object D:\My Documents\Repos\Unreal Class\03_Escape\Escape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Escape-2273.suppressed.exp
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: ---------------------- Done ----------------------
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: 
+[2018.05.13-14.23.23:112][131]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: 
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: 
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: 
+[2018.05.13-14.23.23:112][131]CompilerResultsLog: Total build time: 17.27 seconds (XGE executor: 14.11 seconds)
+[2018.05.13-14.23.23:112][131]LogMainFrame: MainFrame: Module compiling took 17.443 seconds
+[2018.05.13-14.23.23:150][131]LogContentBrowser: Native class hierarchy updated for 'Escape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2018.05.13-14.23.23:151][131]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.05.13-14.23.23:274][131]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2369 classes and 525 folders.
+[2018.05.13-14.23.23:290][131]Display: HotReload took 17.6s.
+[2018.05.13-14.23.31:179][ 69]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.13-14.23.31:251][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.13-14.23.31:261][ 69]PIE: New page: PIE session: NewMap_BuildData (May 13, 2018, 4:23:31 AM)
+[2018.05.13-14.23.31:261][ 69]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap_BuildData
+[2018.05.13-14.23.31:276][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015067s)
+[2018.05.13-14.23.31:277][ 69]LogAIModule: Creating AISystem for world NewMap_BuildData
+[2018.05.13-14.23.31:277][ 69]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2018.05.13-14.23.31:278][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap_BuildData.NewMap_BuildData to /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData (0.016332s)
+[2018.05.13-14.23.31:299][ 69]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.13-14.23.31:306][ 69]LogInit: FAudioDevice initialized.
+[2018.05.13-14.23.31:440][ 69]LogLoad: Game class is 'MyEscapeGameModeBase_BP_C'
+[2018.05.13-14.23.31:459][ 69]LogWorld: Bringing World /Game/UEDPIE_0_NewMap_BuildData.NewMap_BuildData up for play (max tick rate 0) at 2018.05.13-09.23.31
+[2018.05.13-14.23.31:472][ 69]LogWorld: Bringing up level for play took: 0.013973
+[2018.05.13-14.23.31:521][ 69]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.05.13-14.23.31:540][ 69]LogTemp: Warning: SM_Chair_2 is at X=-320.000 Y=344.092 Z=20.000
+[2018.05.13-14.23.31:541][ 69]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap_BuildData -0.197
+[2018.05.13-14.25.49:949][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2018.05.13-14.26.42:775][867]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x400)
+[2018.05.13-14.26.43:941][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2018.05.13-14.26.58:249][669]Cmd: SELECT NONE
+[2018.05.13-14.27.02:383][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
