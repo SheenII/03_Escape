@@ -1,7 +1,6 @@
 // Copyright 2018 Andrew Sheen
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
@@ -35,13 +34,16 @@ private:
 	float OpenAngle = 90.0f;
 
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume* PressurePlate;
+	ATriggerVolume* PressurePlate = nullptr;
 
 	UPROPERTY(EditAnywhere)
 		float DoorCloseDelay = 1.f;
 
 		float LastDoorOpenTime;
 	
-	AActor* ActorThatOpens;  // Using Actor here since Pawn inherits from Actor.
+	
 	AActor* Owner; // The owning door
+
+	  //Returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 };
